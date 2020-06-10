@@ -1,4 +1,4 @@
-exports.handler =  async function(event, context) {
+exports.handler = async (event) => {
 
   var transform = require("node-json-transform").transform;
   // or
@@ -12,7 +12,10 @@ exports.handler =  async function(event, context) {
     }
   });
 
-
-  console.log(result)
-  return result
-}
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify(result),
+    };
+    return response;
+};

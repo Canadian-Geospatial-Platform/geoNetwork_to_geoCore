@@ -1,0 +1,1469 @@
+{
+  "@xmlns": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "6c8bc9b9-5f99-48fc-bd28-3c0af2ec379e"
+  }},
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:parentIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "1ac00a39-4770-443d-8a6b-9656c06df6a3"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact":   [
+    {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Bruce Baxter"
+      }},
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Fisheries and Oceans Canada; Fishery & Assessment Data Section"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Pêches et Océans Canada; Section des données de pêche et d'évaluation"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Salmon Escapement Data Technician"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Technicien de données sur les échappées de saumon"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "1 (250) 7567063"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "1 (250) 7567063"
+            }}}
+          },
+          "gmd:facsimile":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Nanaimo"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Colombie-Britannique"
+            }}}
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "V9T 6N7"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada (le)"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Bruce.Baxter@dfo-mpo.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Bruce.Baxter@dfo-mpo.gc.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gmd:URL": null
+          },
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "http"
+          }}
+        }},
+        "gmd:hoursOfService":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+        }
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_414",
+        "#text": "pointOfContact; contact"
+      }}
+    }},
+    {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Bruce Patten"
+      }},
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Fisheries and Oceans Canada; Fishery & Assessment Data Section"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Pêches et Océans Canada; Section des données de pêche et d'évaluation"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Head, Fishery & Assessment Data Section"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Chef, Section des données de pêche et d'évaluation"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "1 (250) 7567303"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "1 (250) 7567303"
+            }}}
+          },
+          "gmd:facsimile":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Nanaimo"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Colombie-Britannique"
+            }}}
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "V9T 6N7"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada (le)"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Bruce.Patten@dfo-mpo.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Bruce.Patten@dfo-mpo.gc.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": null},
+          "gmd:protocol":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          },
+          "gmd:name":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          },
+          "gmd:description":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:hoursOfService":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        }
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_410",
+        "#text": "owner; propriétaire"
+      }}
+    }}
+  ],
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2020-02-24T15:01:32"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:dataSetURI": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "urn:lsid:marinespecies.org:taxname:254569"
+  }},
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "EPSG:4326"
+    }},
+    "gmd:codeSpace": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://www.epsg-registry.org"
+    }},
+    "gmd:version": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "8.8(9.3.1.2)"
+    }}
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "River Type Sockeye Salmon (Oncorhynchus nerka) Conservation Units, Sites & Status"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Unités de conservation, sites et état du saumon rouge (Oncorhynchus nerka) de type rivière"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2017"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2007"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2018-10"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_368",
+            "#text": "revision; révision"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2019-06"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_368",
+            "#text": "revision; révision"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2019-12"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_368",
+            "#text": "revision; révision"
+          }}
+        }}
+      ],
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:individualName": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Bruce Baxter"
+        }},
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Fisheries and Oceans Canada; Fishery & Assessment Data Section"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Pêches et Océans Canada; Section des données de pêche et d'évaluation"
+          }}}
+        },
+        "gmd:positionName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Salmon Escapement Data Technician"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Technicien de données sur les échappées de saumon"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone":           {
+            "gmd:voice":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "1 (250) 7567063"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "1 (250) 7567063"
+              }}}
+            },
+            "gmd:facsimile":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+            }
+          }},
+          "gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+              }}}
+            },
+            "gmd:city": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Nanaimo"
+            }},
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "British Columbia"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Colombie-Britannique"
+              }}}
+            },
+            "gmd:postalCode": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "V9T 6N7"
+            }},
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada (le)"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Bruce.Baxter@dfo-mpo.gc.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bruce.Baxter@dfo-mpo.gc.ca"
+              }}}
+            }
+          }},
+          "gmd:onlineResource": {"gmd:CI_OnlineResource":           {
+            "gmd:linkage":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gmd:URL": null
+            },
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "http"
+            }}
+          }},
+          "gmd:hoursOfService":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null,
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+          }
+        }},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }}
+      }},
+      "gmd:presentationForm":       [
+        {"gmd:CI_PresentationFormCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+          "@codeListValue": "RI_397",
+          "#text": "tableDigital; tableNumérique"
+        }},
+        {"gmd:CI_PresentationFormCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+          "@codeListValue": "RI_391",
+          "#text": "mapDigital;carteNumérique"
+        }},
+        {"gmd:CI_PresentationFormCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+          "@codeListValue": "RI_389",
+          "#text": "imageDigital; imageNumérique"
+        }}
+      ]
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "A Conservation Unit (CU) is a group of wild Pacific salmon sufficiently isolated from other groups that, if extirpated, is very unlikely to recolonize naturally within an acceptable timeframe, such as a human lifetime or a specified number of salmon generations. \n\nHoltby and Ciruna (2007) provided a framework for aggregating the five species of salmon (genus Oncorhynchus) found on Canada?s Pacific coast into species-specific CUs based on three primary characteristics: ecotypology, life history and genetics. The first stage in the description of the Conservation Units is based solely on ecology. The ecotypologies used in this framework include a combined characterization of both freshwater and near-shore marine environments, and is termed ?joint adaptive zone?. The second stage of the description involves the use of life history, molecular genetics, and further ecological characterizations to group and partition the first stage units into the final Conservation Units. The result is CUs that are described through the joint application of all three axes. It is important to note that CUs are distinct from other aggregates of Pacific salmon, such as designatable units (DUs) under the Species at Risk Act or management units (MUs).\n\nCU Counting Sites:\nSalmon spawner enumeration data in the Pacific Region is stored and managed in the New Salmon Escapement Database (NuSEDS). The term ?escapement? is used to refer to the group of mature salmon that have ?escaped? from various sources of exploitation, and returned to freshwater to spawn and reproduce. This data is assigned to a ?Counting Site?, which may be a complete watercourse with a marine terminus, a tributary to a larger watercourse, or a defined reach within a watercourse that may or may not encompass the entire population but represents an index of the abundance of that population. \n\nCU Status:\nCUs form the basic unit for assessment under Canada?s Policy for the Conservation of Wild Salmon Policy (WSP) (DFO 2005). The biological status of a CU is evaluated using a number of metrics (Holt et al. 2009; Holt 2009), which indicate a WSP status zone: Red (poor status), Amber (marginal status), or Green (healthy status). A final step then incorporates all metric and status-related information into a final integrated status for each CU, along with expert commentary to support the final status determination (e.g., DFO 2012; DFO 2016). This information is used as inputs to fisheries management processes to help prioritize assessment activities and management actions.\n\nNote:  The CUs were last updated in August 2013. Please be aware that CUs may be reviewed and are subject to change without notice."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Unités de conservation (UC) : Une UC s'entend d'un groupe de saumon sauvage suffisamment isolé des autres groupes pour que, s'il venait à disparaître, il soit très peu probable qu'il puisse se rétablir naturellement dans un délai acceptable, p. ex. la durée de vie d'un être humain ou un nombre précis de générations de saumon.\n\nHoltby et Ciruna (2007) ont fourni un cadre pour l?aggrégat des cinq espèces de saumon (genre Oncorhynchus) trouvées sur la côte canadienne du Pacifique dans les unités de conservation propres aux espèces en fonction de trois principales caractéristiques : écotypologie, cycle biologique et génétique. La première étape de la description des unités de conservation repose uniquement sur l?écologie. Les écotypologies utilisées dans ce cadre incluent une caractérisation combinée d?environnements marins d?eau douce et d?eaux à proximité du littoral, dits « zone adaptative conjointe ». Dans la deuxième étape, nous utilisons le cycle biologique, la génétique moléculaire et d?autres caractérisations écologiques pour regrouper ou séparer les unités de la première étape en unités de conservation sous leur forme finale. Il en résulte des unités de conservation qui sont décrites au moyen de l?application commune des trois axes. Il est important de souligner que les unités de conservation se distinguent des autres agrégats du saumon du Pacifique, telles que les unités désignables (UD) en vertu de la Loi sur les espèces en péril ou les zones de gestion.\n\nSites de dénombrement des unités de conservation :\nLes données d?énumération de reproducteurs de saumons dans la région du Pacifique sont stockées et gérées dans le nouveau système de données sur les remontes de saumon (NuSDRS). Le terme « remontes » est utilisé pour faire référence au groupe de saumons matures qui ont échappé des diverses sources d?exploitation et sont retournés à l?eau douce pour frayer et se reproduire. Ces données sont assignées à un « site de dénombrement », qui peut être un cours d?eau complet avec un terminal portuaire, un affluent d?un plus grand cours d?eau ou une portée définie dans un cours d?eau qui peut englober ou non la population en entier, mais représente un indice de l?abondance de cette population. \n\nÉtat des unités de conservation :\nLes unités de conservation forment l?unité de base pour l?évaluation en vertu de la politique canadienne pour la conservation de la politique concernant le saumon sauvage (PSS) (MPO 2005). L?état biologique d?une unité de conservation est évalué à partir d?un nombre de paramètres (Holt et al. 2009; Holt 2009), qui indiquent une zone d?état de la PSP. Rouge (mauvais état), ambre (état marginal) ou vert (état sain). Une étape finale comprend tous les paramètres et les renseignements sur l?état dans un état intégré final pour chaque unité de conservation, ainsi qu?un commentaire d?expert pour appuyer la détermination de l?état final (p. e.x., MPO 2012; MPO 2016). Ces renseignements servent d?intrants pour les processus de gestion des pêches afin d?aider à prioriser les activités d?évaluation et les mesures de gestion.\n\nRemarque : La dernière mise à jour des unités de conservation remonte au mois d?août 2013. Veuillez noter que les unités de conservation peuvent être examinées et faire l?objet de modifications sans préavis."
+      }}}
+    },
+    "gmd:credit":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_596",
+      "#text": "onGoing; enContinue"
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_540",
+      "#text": "asNeeded; auBesoin"
+    }}}},
+    "gmd:graphicOverview":     [
+      {"gmd:MD_BrowseGraphic":       {
+        "gmd:fileName": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "SERMapFinal.png"
+        }},
+        "gmd:fileDescription": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "large_thumbnail"
+        }},
+        "gmd:fileType":         {
+          "@xmlns:napm": "http://www.geconnections.org/nap/napMetadataTools/napXsd/napm",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "napm:napMD_FileFormatCode_PropertyType",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_115",
+          "@codeListValue": "RI_716",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "png; png"
+          }
+        }
+      }},
+      {"gmd:MD_BrowseGraphic":       {
+        "gmd:fileName": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "SERMapFinalFr.png"
+        }},
+        "gmd:fileDescription": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "large_thumbnail_fre"
+        }},
+        "gmd:fileType":         {
+          "@xmlns:napm": "http://www.geconnections.org/nap/napMetadataTools/napXsd/napm",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "napm:napMD_FileFormatCode_PropertyType",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_115",
+          "@codeListValue": "RI_716",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "png; png"
+          }
+        }
+      }}
+    ],
+    "gmd:descriptiveKeywords":     [
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Sockeye Salmon"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Saumon rouge"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Escapement"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Échappée"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Conservation Units"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Unités de conservation"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Wild Salmon Policy"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "La Politique Concernant le Saumon Sauvage"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Pacific"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Pacifique"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Colombie-Britannique"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Yukon Territory"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Territoire du Yukon"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_525",
+          "#text": "place; endroit"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Fish"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Poisson"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Fisheries"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Pêcheries"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Fisheries management"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gestion des pêches"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Fisheries policy"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Politique des pêches"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Conservation areas"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Aire de conservation"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }},
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2004"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_366",
+                "#text": "creation; création"
+              }}
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2016-07-04"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }}
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada; Library and Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+              }}}
+            },
+            "gmd:role": {"gmd:CI_RoleCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+              "@codeListValue": "RI_409",
+              "#text": "custodian; conservateur"
+            }}
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:otherConstraints":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+      }
+    }},
+    "gmd:spatialRepresentationType": {"gmd:MD_SpatialRepresentationTypeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+      "@codeListValue": "RI_637",
+      "#text": "textTable; texteTable"
+    }},
+    "gmd:language": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "eng"
+    }},
+    "gmd:characterSet": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }},
+    "gmd:topicCategory":     [
+      {"gmd:MD_TopicCategoryCode": "biota"},
+      {"gmd:MD_TopicCategoryCode": "environment"},
+      {"gmd:MD_TopicCategoryCode": "inlandWaters"}
+    ],
+    "gmd:environmentDescription":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    },
+    "gmd:extent":     [
+      {"gmd:EX_Extent": {"gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "timeperiod1",
+        "gml:beginPosition": "2007",
+        "gml:endPosition": "2019"
+      }}}}}},
+      {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-140.79"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-119.91"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "47.62"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "65"
+        }}
+      }}}}
+    ],
+    "gmd:supplementalInformation":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    }
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat":     [
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "CSV"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "4"
+        }},
+        "gmd:fileDecompressionTechnique": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ZIP"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ESRI REST"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "4"
+        }},
+        "gmd:fileDecompressionTechnique":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        }
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "SHP"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "4"
+        }},
+        "gmd:fileDecompressionTechnique": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ZIP"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "PNG"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }},
+        "gmd:fileDecompressionTechnique": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ZIP"
+        }}
+      }}
+    ],
+    "gmd:distributor": {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Bruce Baxter"
+      }},
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Fisheries and Oceans Canada; Fishery & Assessment Data Section"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Pêches et Océans Canada; Section des données de pêche et d'évaluation"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Salmon Escapement Data Technician"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Technicien de données sur les échappées de saumon"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "1 (250) 7567063"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "1 (250) 7567063"
+            }}}
+          },
+          "gmd:facsimile":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Nanaimo"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Colombie-Britannique"
+            }}}
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "V9T 6N7"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada (le)"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Bruce.Baxter@dfo-mpo.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Bruce.Baxter@dfo-mpo.gc.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gmd:URL": null
+          },
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "http"
+          }}
+        }},
+        "gmd:hoursOfService":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+        }
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_412",
+        "#text": "distributor; distributeur"
+      }}
+    }}}},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/Pacific_Salmon_CU/Data_Dictionary_CU_V2.html"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Data Dictionary"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Dictionnaire de Données"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;HTML;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;HTML;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/Pacific_Salmon_CU/DATA/River_Type_Sockeye.zip"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "RiverType Sockeye Salmon (Oncorhynchus nerka) Conservation Units, Sites & Status Datasets"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ensemble de données sur les unités de conservation, sites et état du saumon rouge"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;CSV;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;CSV;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/Pacific_Salmon_CU/Shape_Files/River_Type_Sockeye_Salmon_CU_Shape.zip"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "RiverType Sockeye Salmon (Oncorhynchus nerka) Conservation Units, Sites & Status Shape Files"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Fichiers de formes sur les unités de conservation, sites et état du saumon rouge"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;SHP;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;SHP;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://pacgis01.dfo-mpo.gc.ca/FGPPublic/Pacific_Salmon_CU/SerReferenceInformation.html"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTP"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Reference Information"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Informations de Référence"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;HTML;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;HTML;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/Pacific_Salmon_CU/DATA/CUReviewRequestsSummaryForOpenData.xlsx"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Conservation Unit Review Requests ? Form and Summary"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Demande De Modification d?Unités de Conservation ? Formulaires et Résumé"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;XLS;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;XLS;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/Pacific_Salmon_CU/DATA/CUReviewRequestsSummaryForOpenData.csv"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Conservation Unit Review Requests ? Form and Summary"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Demande De Modification d?Unités de Conservation ? Formulaires et Résumé"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;CSV;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;CSV;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:eng-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Pacific_Salmon_Conservation_Unit_SER_En/MapServer"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Map Server"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "River Type Sockeye Salmon (Oncorhynchus nerka) Conservation Units, Sites & Status"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Unités de conservation, sites et état du saumon rouge (Oncorhynchus nerka) de type rivière"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;ESRI REST;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;ESRI REST;eng"
+            }}}
+          }
+        }
+      }}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:fra-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/Pacific_Salmon_Conservation_Unit_SER_Fr/MapServer"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Map Server"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "River Type Sockeye Salmon (Oncorhynchus nerka) Conservation Units, Sites & Status"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Unités de conservation, sites et état du saumon rouge (Oncorhynchus nerka) de type rivière"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;ESRI REST;fra"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;ESRI REST;fra"
+            }}}
+          }
+        }
+      }}}
+    ]
+  }},
+  "geonet:info":   {
+    "id": "5406",
+    "schema": "iso19139.nap",
+    "createDate": "2017-11-10T19:32:33",
+    "changeDate": "2020-02-24T15:01:32",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "6c8bc9b9-5f99-48fc-bd28-3c0af2ec379e",
+    "isHarvested": "n",
+    "popularity": "262",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "Jason",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/141"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

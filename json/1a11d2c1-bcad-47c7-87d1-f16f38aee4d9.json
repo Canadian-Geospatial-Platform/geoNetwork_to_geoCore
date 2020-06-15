@@ -1,0 +1,1103 @@
+{
+  "@xmlns": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "1a11d2c1-bcad-47c7-87d1-f16f38aee4d9"
+  }},
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "fra; CAN"
+  }},
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:individualName": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "Section Gestion de données - Direction des avis, information et soutien scientifiques"
+    }},
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#eng",
+        "#text": "Government of Canada; Fisheries and Oceans Canada"
+      }}}
+    },
+    "gmd:positionName":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null,
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact":     {
+      "gmd:phone": {"gmd:CI_Telephone":       {
+        "gmd:voice":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+        },
+        "gmd:facsimile":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        }
+      }},
+      "gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "850, route de la Mer, C. P. 1000"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "850, route de la Mer, P.O. Box 1000"
+          }}}
+        },
+        "gmd:city": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Mont-Joli"
+        }},
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "Québec"
+          }}}
+        },
+        "gmd:postalCode": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "G5H 3Z4"
+        }},
+        "gmd:country":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "gddaiss-dmsaisb@dfo-mpo.gc.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "gddaiss-dmsaisb@dfo-mpo.gc.ca"
+          }}}
+        }
+      }},
+      "gmd:onlineResource": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gmd:URL": null
+        },
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "http"
+        }}
+      }},
+      "gmd:hoursOfService":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+      }
+    }},
+    "gmd:role": {"gmd:CI_RoleCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+      "@codeListValue": "RI_420",
+      "#text": "editor; réviseur"
+    }}
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2019-09-18T17:56:59"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#eng",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:dataSetURI":   {
+    "@gco:nilReason": "missing",
+    "gco:CharacterString": null
+  },
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "eng",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "eng",
+      "#text": "English; Anglais"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "EPSG:4617"
+    }},
+    "gmd:codeSpace": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://www.epsg-registry.org"
+    }},
+    "gmd:version": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "9.1.1"
+    }}
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Zones d'importance écologique et biologique dans l'estuaire et le golfe du St-Laurent"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#eng",
+          "#text": "Ecological and biological significant areas in the Estuary and Gulf of St. Lawrence"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2007"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2012"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }}
+      ],
+      "gmd:identifier": {"gmd:MD_Identifier": {"gmd:code": null}},
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:individualName": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Olivier Parent"
+        }},
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "Government of Canada; Fisheries and Oceans Canada"
+          }}}
+        },
+        "gmd:positionName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Analyste en géomatique"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "Geomatics analyst"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone":           {
+            "gmd:voice":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null,
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+            },
+            "gmd:facsimile":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+            }
+          }},
+          "gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "850, route de la Mer, C. P. 1000"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#eng",
+                "#text": "850, route de la Mer, P.O. Box 1000"
+              }}}
+            },
+            "gmd:city": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Mont-Joli"
+            }},
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString": null,
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#eng",
+                "#text": "Québec"
+              }}}
+            },
+            "gmd:postalCode": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "G5H 3Z4"
+            }},
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#eng",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Oceans-QC@dfo-mpo.gc.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#eng",
+                "#text": "Oceans-QC@dfo-mpo.gc.ca"
+              }}}
+            }
+          }},
+          "gmd:onlineResource": {"gmd:CI_OnlineResource":           {
+            "gmd:linkage":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gmd:URL": null
+            },
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "http"
+            }}
+          }},
+          "gmd:hoursOfService":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null,
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+          }
+        }},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }}
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Identification des zones d?importance écologique et biologique (ZIEB) pour l?estuaire et le golfe du St-Laurent selon six groupes de la chaîne alimentaire : la production primaire (Lavoie et al, 2007), la production secondaire (Plourde et McQuinn, 2010), le méroplancton (Ouellet, 2007), les invertébrés benthiques (Chabot et al, 2007), les poissons démersaux (Castonguay et Valois, 2007) et les poissons pélagiques (McQuinn et al, 2012). L?aire de distribution de chacun des groupes a été évaluée selon cinq critères afin d?établir les ZIEB (DFO, 2004) :\n\n1. L?unicité : Classement décroissant depuis les zones aux caractéristiques uniques, rares et distinctes et pour lesquelles aucune solution de rechange n?existe jusqu?aux zones aux caractéristiques répandues dans nombre d?autres endroits présentant des caractéristiques importantes semblables\n\n2. Concentration : Classement décroissant depuis les zones où la plupart des individus d?une espèce se regroupent jusqu?aux zones où les individus d?une espèce sont dispersés.\n\n3. Conséquence sur la valeur adaptive : Classement décroissant depuis les zones où les activités du cycle biologique entreprises contribuent de façon importante à la valeur adaptative de la population ou des espèces présentes jusqu?aux zones où les activités du cycle biologique entreprises contribuent faiblement à la valeur adaptative.    \n\n4. Résilience : Classement décroissant depuis les zones où les structures d?habitat ou les espèces sont extrêmement vulnérables, faciles à perturber et lentes à récupérer jusqu?aux zones où les structures de l?habitat ou les espèces sont robustes, résistantes aux perturbations ou capables de revenir rapidement à leur état initial. \n\n5. Caractère naturel (sensibilité aux perturbations) : Classement décroissant depuis les zones vierges et caractérisées par des espèces indigènes jusqu?aux zones fortement perturbées par des activités anthropiques ou par une forte abondance d?espèces introduites ou cultivées.\n\nCastonguay, M. and Valois, S. 2007. Zones d?importance écologique et biologique pour les poissons démersaux dans le nord du Golfe du Saint-Laurent. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/014. iii + 34 p.\n(http://www.dfo-mpo.gc.ca/Library/328789.pdf)\n\nChabot, D., Rondeau A., Sainte-Marie B., Savard L., Surette T. et Archambault P. 2007. Distribution des invertébrés benthiques dans l?estuaire et le golfe du Saint-Laurent. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/018. iii + 118 p.\n(http://www.dfo-mpo.gc.ca/Library/331834.pdf)\n\nDFO, 2004. Identification des zones d?importance écologique et biologique. DFO Can. Sci. Advis. Sec. Ecosystem Status Rep. 2004/006. \n(http://www.dfo-mpo.gc.ca/Library/314807.pdf)\n\nLavoie, D., Starr, M., Zakardjian, B. and Larouche, P. 2007. Identification of ecologically and biologically significant areas (EBSA) in the Estuary and Gulf of St. Lawrence: Primary production. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/079. iii + 29 p \n(http://www.dfo-mpo.gc.ca/Library/334644.pdf)\n\nMcQuinn, I.H., Bourassa, M-N., Tournois, C., Grégoire, F., and Baril, D. 2012. Ecologically and\nbiologically significant areas in the Estuary and Gulf of St. Lawrence: small pelagic fishes.\nDFO Can. Sci. Advis. Sec. Res. Doc. 2012/087. iii + 76 p.\n(http://www.dfo-mpo.gc.ca/Library/347263.pdf)\n\nOuellet P. 2007. Contribution à l?identification de zones d?importance écologique et biologique (ZIEB) pour l?estuaire et le golfe du Saint-Laurent : La couche des oeufs et des larves de poissons et de crustacés décapodes. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/011. iii + 76 p. (Mise à jour novembre 2010)\n(http://www.dfo-mpo.gc.ca/Library/330662.pdf)\n\nPlourde, S. et McQuinn, I.A. 2010. Zones d?importance écologique et biologique dans le golfe du Saint-Laurent : zooplancton et production secondaire. DFO Can. Sci. Advis. Sec. Res. Doc. 2009/104. iv + 27 p.\n(http://www.dfo-mpo.gc.ca/Library/339787.pdf)"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#eng",
+        "#text": "Identification of ecological and biological significant areas (EBSA) in the Estuary and the Gulf of St. Lawrence according to six groups of the food chain : primary production (Lavoie et al, 2007), secondary production (Plourde et McQuinn, 2010), meroplankton (Ouellet, 2007), benthic invertebrates (Chabot et al, 2007), demersal fishes (Castonguay et Valois, 2007) and pelagic fishes (McQuinn et al, 2012). The distribution area of each group has been evaluated using five criteria in order to determine the EBSA (DFO, 2004):\n\n1. Uniqueness: Ranked from areas whose characteristics are unique, rare, distinct, and for which alternatives do not exist to areas whose characteristics are widespread with many areas which are similar.\n\n2. Aggregation: Ranked from areas where most individuals of a species are aggregated to areas where individuals of the species are widespread\n\n3. Fitness consequence: Ranked from areas where the life history activity(ies) undertaken make a major contribution to the fitness of the population or species present to areas where the life history activity(ies) undertaken make only marginal contributions to fitness.\n\n4. Resilience: Ranked from areas where the habitat structures or species are highly sensitive, easily perturbed, and slow to recover to areas where the habitat structures or species are robust, resistant to perturbation, or readily return to the pre-perturbation state.\n\n5. Naturalness: Ranked from areas which are pristine and characterized by native species to areas which are highly perturbed by anthropogenic activities and/or with high abundances of introduced or cultured species.\n\nCastonguay, M. and Valois, S. 2007. Zones d?importance écologique et biologique pour les poissons démersaux dans le nord du Golfe du Saint-Laurent. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/014. iii + 34 p.\n(http://www.dfo-mpo.gc.ca/Library/328789.pdf)\n\nChabot, D., Rondeau A., Sainte-Marie B., Savard L., Surette T. et Archambault P. 2007. Distribution des invertébrés benthiques dans l?estuaire et le golfe du Saint-Laurent. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/018. iii + 118 p.\n(http://www.dfo-mpo.gc.ca/Library/331834.pdf)\n\nDFO, 2004. Identification of Ecologically and Biologically Significant Areas. DFO Can. Sci. Advis. Sec. Ecosystem Status Rep. 2004/006. \n(http://www.dfo-mpo.gc.ca/Library/314806.pdf) \n\nLavoie, D., Starr, M., Zakardjian, B. and Larouche, P. 2007. Identification of ecologically and biologically significant areas (EBSA) in the Estuary and Gulf of St. Lawrence: Primary production. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/079. iii + 29 p \n(http://www.dfo-mpo.gc.ca/Library/334644.pdf)\n\nMcQuinn, I.H., Bourassa, M-N., Tournois, C., Grégoire, F., and Baril, D. 2012. Ecologically and biologically significant areas in the Estuary and Gulf of St. Lawrence: small pelagic fishes. DFO Can. Sci. Advis. Sec. Res. Doc. 2012/087. iii + 76 p.\n(http://www.dfo-mpo.gc.ca/Library/347263.pdf)\n\nOuellet P. 2007. Contribution à l?identification de zones d?importance écologique et biologique (ZIEB) pour l?estuaire et le golfe du Saint-Laurent : La couche des oeufs et des larves de poissons et de crustacés décapodes. DFO Can. Sci. Advis. Sec. Res. Doc. 2007/011. iii + 76 p. (Mise à jour novembre 2010)\n(http://www.dfo-mpo.gc.ca/Library/330662.pdf)\n\nPlourde, S. et McQuinn, I.A. 2010. Zones d?importance écologique et biologique dans le golfe du Saint-Laurent : zooplancton et production secondaire. DFO Can. Sci. Advis. Sec. Res. Doc. 2009/104. iv + 27 p.\n(http://www.dfo-mpo.gc.ca/Library/339787.pdf)"
+      }}}
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_593",
+      "#text": "completed; complété"
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_542",
+      "#text": "notPlanned; nonPlanifié"
+    }}}},
+    "gmd:graphicOverview":     [
+      {"gmd:MD_BrowseGraphic":       {
+        "gmd:fileName": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Vignette_EBSA_ZIEB.png"
+        }},
+        "gmd:fileDescription": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "large_thumbnail"
+        }},
+        "gmd:fileType":         {
+          "@xmlns:napm": "http://www.geconnections.org/nap/napMetadataTools/napXsd/napm",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "napm:napMD_FileFormatCode_PropertyType",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_115",
+          "@codeListValue": "RI_716",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "png; png"
+          }
+        }
+      }},
+      {"gmd:MD_BrowseGraphic":       {
+        "gmd:fileName": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Vignette_EBSA_ZIEB.png"
+        }},
+        "gmd:fileDescription": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "large_thumbnail_fre"
+        }},
+        "gmd:fileType":         {
+          "@xmlns:napm": "http://www.geconnections.org/nap/napMetadataTools/napXsd/napm",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "napm:napMD_FileFormatCode_PropertyType",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_115",
+          "@codeListValue": "RI_716",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "png; png"
+          }
+        }
+      }}
+    ],
+    "gmd:descriptiveKeywords":     [
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "production primaire"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "primary production"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "production secondaire"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "secondary production"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "méroplancton"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "meroplankton"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "invertébrés benthiques"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "benthic invertebrates"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "poissons démersaux"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "demersal fishes"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "poissons pélagiques"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "pelagic fishes"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "zooplancton"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "zooplankton"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_530",
+          "#text": "subTopicCategory; catégorieSousSujet"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Golfe du Saint-Laurent"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Gulf of St. Lawrence"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Estuaire du Saint-Laurent"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "St. Lawrence Estuary"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_525",
+          "#text": "place; endroit"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Sciences de la terre"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Earth sciences"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Océan"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Oceans"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Eau salée"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Salt water"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Faune aquatique"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Aquatic wildlife"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Poisson de mer"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Salt water fish"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Ressources halieutiques"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Fisheries resources"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Diversité biologique"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Biological diversity"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }},
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2004"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_366",
+                "#text": "creation; création"
+              }}
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2016-07-04"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }}
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#eng",
+                "#text": "Government of Canada; Library and Archives Canada"
+              }}}
+            },
+            "gmd:role": {"gmd:CI_RoleCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+              "@codeListValue": "RI_409",
+              "#text": "custodian; conservateur"
+            }}
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#eng",
+          "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:otherConstraints":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+      }
+    }},
+    "gmd:spatialRepresentationType": {"gmd:MD_SpatialRepresentationTypeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+      "@codeListValue": "RI_635",
+      "#text": "vector; vecteur"
+    }},
+    "gmd:language": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "fra; CAN"
+    }},
+    "gmd:characterSet": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }},
+    "gmd:topicCategory":     [
+      {"gmd:MD_TopicCategoryCode": "biota"},
+      {"gmd:MD_TopicCategoryCode": "environment"},
+      {"gmd:MD_TopicCategoryCode": "oceans"}
+    ],
+    "gmd:environmentDescription":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    },
+    "gmd:extent":     [
+      {"gmd:EX_Extent": {"gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "timeperiod1",
+        "gml:beginPosition": "2007",
+        "gml:endPosition": "2012"
+      }}}}}},
+      {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-70.822"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-55.269"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "45.652"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "52.125"
+        }}
+      }}}}
+    ],
+    "gmd:supplementalInformation":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    }
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat": {"gmd:MD_Format":     {
+      "gmd:name": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "ESRI REST"
+      }},
+      "gmd:version": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "10.3.1"
+      }}
+    }},
+    "gmd:distributor": {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Olivier Parent"
+      }},
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#eng",
+          "#text": "Government of Canada; Fisheries and Oceans Canada"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Analyste en géomatique"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#eng",
+          "#text": "Geomatics analyst"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "850, route de la Mer, C. P. 1000"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "850, route de la Mer, P.O. Box 1000"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Mont-Joli"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": null,
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Québec"
+            }}}
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "G5H 3Z4"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Canada"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Oceans-QC@dfo-mpo.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Oceans-QC@dfo-mpo.gc.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gmd:URL": null
+          },
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "http"
+          }}
+        }},
+        "gmd:hoursOfService":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#eng"}}}
+        }
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_414",
+        "#text": "pointOfContact; contact"
+      }}
+    }}}},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/EBSA_ZIEB/DataDictionary_DictionnaireDonnees.csv"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dictionnaire de données"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "Data Dictionary"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Document de soutien;CSV;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "Supporting Document;CSV;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/EBSA_ZIEB/EBSA_ZIEB.zip"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ZIEB"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "EBSA"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Données;FGDB/GDB;fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#eng",
+            "#text": "Dataset;FGDB/GDB;fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:eng-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/EBSA_ZIEB/MapServer/0"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Map Server"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "ZIEB"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "EBSA"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Service Web;ESRI REST;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Web Service;ESRI REST;eng"
+            }}}
+          }
+        }
+      }}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:fra-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/EBSA_ZIEB/MapServer/0"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Map Server"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "ZIEB"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "EBSA"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Service Web;ESRI REST;fra"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#eng",
+              "#text": "Web Service;ESRI REST;fra"
+            }}}
+          }
+        }
+      }}}
+    ]
+  }},
+  "geonet:info":   {
+    "id": "7400",
+    "schema": "iso19139.nap",
+    "createDate": "2019-02-18T19:01:25",
+    "changeDate": "2019-09-18T17:56:59",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "1a11d2c1-bcad-47c7-87d1-f16f38aee4d9",
+    "isHarvested": "n",
+    "popularity": "85",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "GDDAISS",
+    "valid_details":     [
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      },
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/86"
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

@@ -1,0 +1,1579 @@
+{
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "d6bbf179-cd28-4160-85b8-62e54a43bf24"
+  }},
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:individualName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Alberta Geological Survey"
+      }
+    },
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Government of Alberta; Government of Alberta; Alberta Geological Survey"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Gouvernement de l'Alberta; Gouvernement de l'Alberta; Commission géologique de l'Alberta"
+      }}}
+    },
+    "gmd:positionName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "AGS Information Manager"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "AGS Information Manager"
+      }}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact":     {
+      "gmd:phone": {"gmd:CI_Telephone":       {
+        "gmd:voice":         {
+          "@xmlns:napm": "http://www.geoconnections.org/nap/napMetadataTools/napXsd/napm",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "(780) 638-4491"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "(780) 638-4491"
+          }}}
+        },
+        "gmd:facsimile": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "(780) 422-1918"
+        }}
+      }},
+      "gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Alberta Energy Regulator 4th Floor, Twin Atria Building 4999-98 Avenue NW"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Alberta Energy Regulator 4th Floor, Twin Atria Building 4999-98 Avenue NW"
+          }}}
+        },
+        "gmd:city": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Edmonton"
+        }},
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Alberta"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Alberta"
+          }}}
+        },
+        "gmd:postalCode": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "T6B 2X3"
+        }},
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Canada"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AGS-Info@aer.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "AGS-Info@aer.ca"
+          }}}
+        }
+      }},
+      "gmd:onlineResource": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://geodiscover.alberta.ca/geoportal/"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "GeoDiscover Alberta provides enhanced details regarding Alberta's geospatial data."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "GéoDécouvrez l'Alberta fournit des détails améliorés sur les données géospatiales de l'Alberta."
+          }}}
+        }
+      }}
+    }},
+    "gmd:role": {"gmd:CI_RoleCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+      "@codeListValue": "RI_414",
+      "#text": "pointOfContact; contact"
+    }}
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2020-04-27T12:26:09"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "ISO 19115-1.1"
+  }},
+  "gmd:dataSetURI":   {
+    "@gco:nilReason": "missing",
+    "gco:CharacterString": null
+  },
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "EPSG: 4269"
+    }},
+    "gmd:codeSpace":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    },
+    "gmd:version": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "8.4.1"
+    }}
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "GIS compilation of structural elements in Alberta, version 3.0 (GIS data, line features)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Compilation SIG des éléments structurels en Alberta, version 3.0 (données SIG, entités linéaires)"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2015-01-01"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "0001-01-01"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }}
+      ],
+      "gmd:identifier": {"gmd:MD_Identifier": {"gmd:code": null}},
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:individualName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Alberta Geological Survey"
+          }
+        },
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Alberta; Government of Alberta; Alberta Geological Survey"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement de l'Alberta; Gouvernement de l'Alberta; Commission géologique de l'Alberta"
+          }}}
+        },
+        "gmd:positionName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AGS Information Manager"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "AGS Information Manager"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone":           {
+            "gmd:voice":             {
+              "@xmlns:napm": "http://www.geoconnections.org/nap/napMetadataTools/napXsd/napm",
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "(780) 638-4491"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "(780) 638-4491"
+              }}}
+            },
+            "gmd:facsimile": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "(780) 422-1918"
+            }}
+          }},
+          "gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Alberta Energy Regulator 4th Floor, Twin Atria Building 4999-98 Avenue NW"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Alberta Energy Regulator 4th Floor, Twin Atria Building 4999-98 Avenue NW"
+              }}}
+            },
+            "gmd:city": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Edmonton"
+            }},
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Alberta"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Alberta"
+              }}}
+            },
+            "gmd:postalCode": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "T6B 2X3"
+            }},
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "AGS-Info@aer.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "AGS-Info@aer.ca"
+              }}}
+            }
+          }},
+          "gmd:onlineResource": {"gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://geodiscover.alberta.ca/geoportal/"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "HTTPS"
+            }},
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "GeoDiscover Alberta provides enhanced details regarding Alberta's geospatial data."
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "GéoDécouvrez l'Alberta fournit des détails améliorés sur les données géospatiales de l'Alberta."
+              }}}
+            }
+          }}
+        }},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }}
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "This dataset (lineaments_ln_ll.shp) comprises structural features compiled into GIS format from existing literature, published up to 2003. The data represent fault/lineament locations known or inferred in the Alberta Plains. We have chosen to digitize and publish all lineaments from source maps even where they extended beyond the Alberta boundary. Each compiled feature is characterized by a set of attributes including: affected formations (oldest affected and oldest non-affected stratigraphic unit), fault type, fault sense of displacement, evidence used to infer the fault/lineament, original reference information and publication scale, and an estimate of the georeferencing error. The completeness of the captured attribute set varies for each feature as a function of the level of detail in the source article. The data set should be used cautiously. First, the original authors? interpretation of subsurface faults, particularly of ?basement faults?, from air photo or satellite imagery lineaments is tenuous. Second, the vast majority of faults inferred in the foreland basin (Alberta Plains) east of the deformation front are normal-slip faults; although only the dip slip component has been inferred, some of these faults may also have a strike-slip component, generally not accounted for. Third, the location of lineaments includes cumulative errors inherent in the process of transferring into GIS lineaments traced by hand in the pre-computer era on small scale (regional) paper-copy maps. Such errors include spatial imprecisions in original lineament identification and drawing and errors in georefencing of the source map, as well as minor errors introduced during lineament digitization. Although each of them is minor at the scale of the original map, the cumulative effect of these errors may be significant and even misleading for large-scale (township or larger) projects."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Cet ensemble de données (lineaments_ln_ll.shp) comprend des entités structurelles compilées au format SIG à partir de la littérature existante publiée jusqu'en 2003. Les données représentent les emplacements de failles ou de linéaments connus ou déduits dans les plaines de l'Alberta. Nous avons choisi de numériser et de publier toutes les lignées à partir des cartes sources, même si elles s'étendaient au-delà de la frontière de l'Alberta. Chaque caractéristique compilée est caractérisée par un ensemble d'attributs, y compris : les formations affectées (la plus ancienne unité stratigraphique affectée et la plus ancienne non affectée), le type de faille, le sens du déplacement de la faille, les preuves utilisées pour déduire le défaut ou le linéament, les informations de référence originales et l'échelle de publication, et une estimation de l'erreur de géoréférencement. L'exhaustivité de l'ensemble d'attributs capturés varie pour chaque entité en fonction du niveau de détail de l'article source. L'ensemble de données doit être utilisé avec prudence. Premièrement, l'interprétation par les auteurs originaux des failles souterraines, en particulier des « défauts du sous-sol », à partir de linéaments de photos aériennes ou d'imagerie satellite, est ténue. Deuxièmement, la grande majorité des failles inférées dans le bassin de l'avant-pays (plaines de l'Alberta) à l'est du front de déformation sont des failles de glissement normal ; bien que seule la composante de glissement d'immersion ait été déduite, certaines de ces failles peuvent aussi avoir une composante de glissement de grève, généralement non comptabilisée. Troisièmement, l'emplacement des lignées comprend des erreurs cumulatives inhérentes au processus de transfert vers des lignées SIG tracées manuellement à l'ère pré-informatique sur des cartes papier à petite échelle (régionales). Ces erreurs comprennent des imprécisions spatiales dans l'identification et le dessin des linéaments d'origine et des erreurs dans la géoréférencement de la carte source, ainsi que des erreurs mineures introduites lors de la numérisation des linéaments. Bien que chacune d'entre elles soit mineure à l'échelle de la carte originale, l'effet cumulatif de ces erreurs peut être significatif et même trompeur pour les projets de grande envergure (cantons ou grands). \n\n\n\t\t\t** Cet élément de métadonnées provenant d?une tierce partie a été traduit à l'aide d'un outil de traduction automatisée (Amazon Translate). Pour signaler toute anomalie, veuillez communiquer avec nous à nrcan.fgp-pgf.rncan@canada.ca **"
+      }}}
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_593",
+      "#text": "completed; complété"
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_543",
+      "#text": "unknown; inconnu"
+    }}}},
+    "gmd:graphicOverview": {"gmd:MD_BrowseGraphic": {"gmd:fileName": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "https://dl.dropboxusercontent.com/s/crv4iorw2dj9yrd/webready-alberta-300x300png.jpg?dl=0"
+    }}}},
+    "gmd:descriptiveKeywords":     [
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "fault"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "faute"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "gis data"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "données gis"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "lineaments"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "linéaments"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "peace river arch"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "arche de la rivière de la paix"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "structural geology"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "géologie structurale"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "structure"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "structure"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "72e"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "72e"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "72l"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "72l"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "72m"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "72m"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "73d"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "73d"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "73e"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "73e"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "73l"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "73l"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "73m"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "73m"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "74d"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "74d"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "74e"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "74 e"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "74l"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "74l"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "74m"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "74m"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82g"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82g"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82h"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82h"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82i"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82i"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82j"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82j"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82n"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82n"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82o"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82o"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "82p"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "82p"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83a"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83a"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83b"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83b"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83c"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83c"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83d"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83d"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83e"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83e"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83f"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83f"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83g"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83g"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83h"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83h"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83i"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83i"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83j"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83j"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83k"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83k"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83l"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83l"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83m"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83m"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83n"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83n"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83o"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83o"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "83p"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "83p"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84a"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84a"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84b"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84b"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84c"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84c"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84d"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84d"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84e"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84e"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84f"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84f"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84g"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84g"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84h"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84h"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84i"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84i"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84j"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84j"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84k"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84k"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84l"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84l"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84m"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84m"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84n"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84n"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84o"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84o"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "84p"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "84p"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "alberta"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "en alberta"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government information"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Information gouvernementale"
+          }}}
+        },
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }},
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Thesaurus des sujets de base du gouvernement du Canada"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2004"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_366",
+                "#text": "creation; creation"
+              }}
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2016-04-21"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }}
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada; Library and Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Gouvernement du Canada; Bibliotheque et Archives Canada"
+              }}}
+            },
+            "gmd:role": {"gmd:CI_RoleCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+              "@codeListValue": "RI_409",
+              "#text": "custodian; conservateur"
+            }}
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Open Government Licence - Alberta (https://open.alberta.ca/licence)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Licence du gouvernement ouvert - Alberta (https://open.alberta.ca/licence)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:otherConstraints":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+      }
+    }},
+    "gmd:spatialRepresentationType": {"gmd:MD_SpatialRepresentationTypeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+      "@codeListValue": "RI_635",
+      "#text": "vector; vecteur"
+    }},
+    "gmd:language":     [
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "eng; CAN"
+      }},
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "fra; CAN"
+      }}
+    ],
+    "gmd:characterSet": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": ""
+    }},
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "geoscientificInformation"},
+    "gmd:environmentDescription":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    },
+    "gmd:extent":     [
+      {"gmd:EX_Extent": {"gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@gco:nilReason": "missing",
+        "gml:TimePeriod":         {
+          "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+          "@gml:id": "timeperiod1",
+          "gml:beginPosition": "0001-01-01",
+          "gml:endPosition": "2015-01-01"
+        }
+      }}}}},
+      {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-124.921960"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-100.245045"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "48.003110"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "64.013218"
+        }}
+      }}}}
+    ],
+    "gmd:supplementalInformation":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    }
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat":     [
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "SHP"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "unknown"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTML"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "unknown"
+        }}
+      }}
+    ],
+    "gmd:distributor": {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Alberta Geological Survey"
+        }
+      },
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Alberta; Government of Alberta; Alberta Geological Survey"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement de l'Alberta; Gouvernement de l'Alberta; Commission géologique de l'Alberta"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "AGS Information Manager"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "AGS Information Manager"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:napm": "http://www.geoconnections.org/nap/napMetadataTools/napXsd/napm",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "(780) 638-4491"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "(780) 638-4491"
+            }}}
+          },
+          "gmd:facsimile": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "(780) 422-1918"
+          }}
+        }},
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Alberta Energy Regulator 4th Floor, Twin Atria Building 4999-98 Avenue NW"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Alberta Energy Regulator 4th Floor, Twin Atria Building 4999-98 Avenue NW"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Edmonton"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Alberta"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Alberta"
+            }}}
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "T6B 2X3"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "AGS-Info@aer.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "AGS-Info@aer.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://geodiscover.alberta.ca/geoportal/"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTPS"
+          }},
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "GeoDiscover Alberta provides enhanced details regarding Alberta's geospatial data."
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "GéoDécouvrez l'Alberta fournit des détails améliorés sur les données géospatiales de l'Alberta."
+            }}}
+          }
+        }}
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_414",
+        "#text": "pointOfContact; contact"
+      }}
+    }}}},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://geodiscover.alberta.ca/geoportal/rest/metadata/item/d6bbf179cd28416085b862e54a43bf24/html"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTPS"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Alberta Geoportal"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Géoportail de l'Alberta"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Dataset;HTML;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Données;HTML;fra"
+            }}}
+          }
+        }
+      }}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://ags.aer.ca/document/DIG/DIG_2003_0012.zip"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTPS"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "DIG_2003_0012.zip"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "DIG_2003_0012.zip"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Dataset;SHP;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Données;SHP;fra"
+            }}}
+          }
+        }
+      }}}
+    ]
+  }},
+  "geonet:info":   {
+    "id": "10795",
+    "schema": "iso19139.nap",
+    "createDate": "2020-04-24T19:30:21",
+    "changeDate": "2020-04-27T12:26:09",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "d6bbf179-cd28-4160-85b8-62e54a43bf24",
+    "isHarvested": "n",
+    "popularity": "0",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "Nicolas",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/145"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

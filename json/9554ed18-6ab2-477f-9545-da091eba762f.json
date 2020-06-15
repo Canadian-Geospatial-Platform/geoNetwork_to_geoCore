@@ -1,0 +1,791 @@
+{
+  "@xmlns": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "9554ed18-6ab2-477f-9545-da091eba762f"
+  }},
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:parentIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "aae6619f-f9f3-435d-bc32-42decd58b674"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Government of Canada; Natural Resources Canada; Earth Sciences Sector"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre"
+      }}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact":     {
+      "gmd:phone": {"gmd:CI_Telephone": {"gmd:voice":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "voice; 1 (800) 6612638"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "voix; 1 (800) 6612638"
+        }}}
+      }}},
+      "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Geoinfo@Canada.ca"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Geoinfo@Canada.ca"
+        }}}
+      }}}
+    }},
+    "gmd:role": {"gmd:CI_RoleCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+      "@codeListValue": "RI_414",
+      "#text": "pointOfContact; contact"
+    }}
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2018-05-02T20:32:31"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "EPSG:4326"
+    }},
+    "gmd:codeSpace": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://www.epsg-registry.org"
+    }},
+    "gmd:version": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "8.8.1"
+    }}
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Solar Resource, NSRDB PSM Direct Normal Irradiance (DNI) - North American Cooperation on Energy Information"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Ressource solaire, NSRDB PSM Ensoleillement normal direct (END) - Coopération nord-américaine en matière d?information sur l?énergie"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2016-05-30"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2016-06-13"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }}
+      ],
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Earth Sciences Sector"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Geoinfo@Canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Geoinfo@Canada.ca"
+          }}}
+        }}}}},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }}
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Average of the hourly Direct Normal Irradiance (DNI) over 17 years (1998-2014). Data extracted from the National Solar Radiation Database (NSRDB) developed using the Physical Solar Model (PSM) by National Renewable Energy Laboratory (\"NREL\"), Alliance for Sustainable Energy, LLC, U.S. Department of Energy (\"DOE\").\n\nThe current version of the National Solar Radiation Database (NSRDB) (v2.0.1) was developed using the Physical Solar Model (PSM), and offers users the solar resource datasets from 1998 to 2014). The NSRDB comprises 30-minute solar and meteorological data for approximately 2 million 0.038-degree latitude by 0.038-degree longitude surface pixels (nominally 4 km2). The area covered is bordered by longitudes 25° W on the east and 175° W on the west, and by latitudes -20° S on the south and 60° N on the north. The solar radiation values represent the resource available to solar energy systems. The AVHRR Pathfinder Atmospheres-Extended (PATMOS-x) model uses half-hourly radiance images in visible and infrared channels from the GOES series of geostationary weather satellites, a climatological albedo database and mixing ratio, temperature and pressure profiles from Modern Era-Retrospective Analysis (MERRA) to generate cloud masking and cloud properties. Cloud properties generated using PATMOS-x are used in fast radiative transfer models along with aerosol optical depth (AOD) and precipitable water vapor (PWV) from ancillary sources to estimate Direct Normal Irradiance (DNI) and Global Horizontal Irradiance (GHI). A daily AOD is retrieved by combining information from the MODIS and MISR satellites and ground-based AERONET stations. Water vapor and other inputs are obtained from MERRA. For clear sky scenes the direct normal irradiance (DNI) and GHI are computed using the REST2 radiative transfer model. For cloud scenes identified by the cloud mask, Fast All-sky Radiation Model for Solar applications (FARMS) is used to compute the GHI. The DNI for cloud scenes is then computed using the DISC model. The data in this layer is an average of the hourly GHI over 17 years (1998-2014). \n          \nNOTE:  The Geographical Information System (GIS) data and maps for solar resources for Global Horizontal Irradiance (GHI) and Direct Normal Irradiance (DNI) were developed by the U.S. National Renewable Energy Laboratory (NREL) and provided for Canada as an estimate. At present, neither the NREL data, nor the Physical Solar Model (PSM) on which the NREL data is based, have been either assessed or validated for the particular Canadian weather applications.  A Canadian GHI map developed by the department of Natural Resources Canada (NRCan) is based on the State University of New York (SUNY) model and has been assessed and validated for the particular Canadian weather applications.  The Canadian GHI map is available at http://atlas.gc.ca/cerp-rpep/en/."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Moyenne de l?ensoleillement normal direct (END) horaire sur 17 ans (1998-2014). Données extraites de la base nationale de rayonnement solaire (NSRDB) développée à l'aide du modèle solaire physique PSM (Physical Solar Model) par le National Renewable Energy Laboratory (\"NREL\"), Alliance for Sustainable Energy, LLC, U.S. Department of Energy (\"DOE\").\n\nLa version actuelle de la base de données nationale sur le rayonnement solaire des États-Unis, soit la NSRDB (National Solar Radiation Database) (v. 2.0.1), a été développée à l'aide du modèle solaire physique PSM (Physical Solar Model) et il donne aux utilisateurs l'accès aux ensembles de données sur les ressources solaires de 1998 à 2014. La NSRDB contient des données météorologiques et des données sur l'énergie solaire reçues aux 30 minutes pour environ 2 millions de pixels de surface mesurant 0,038 degré de latitude sur 0,038 degré de longitude (valeur nominale de 4 km2). La zone visée est délimitée par les longitudes -25° ouest et -175° ouest, ainsi que les latitudes -20° sud et 60° nord. Les valeurs de rayonnement solaire représentent l'énergie solaire disponible pour les systèmes d'énergie solaire. Le modèle AVHRR PATMOS-x (Pathfinder Atmospheres-Extended) utilise des images du rayonnement reçues dans les canaux visible et infrarouge aux 30 minutes à partir de la série de satellites météorologiques géostationnaires GOES. Le modèle se sert aussi de données climatologiques d?albédo et rapport de mélange, ainsi que des profils de température et de pression atmosphérique MERRA (Modern Era-Retrospective Analysis) pour générer le masque et les propriétés des nuages. Les propriétés de nuages générées avec PATMOS-x sont utilisées dans les modèles rapides de transfert radiatif, et pour établir l'épaisseur optique des aérosols (AOD) et la vapeur d'eau précipitable de sources auxiliaires afin d'estimer l?ensoleillement direct normal (EDN) et l?ensoleillement horizontal global (EHG). Un bilan quotidien de l'épaisseur optique des aérosols (AOD) est réalisé en mettant en commun des données provenant des satellites MODIS et MISR et des stations au sol AERONET. Les données de vapeur d'eau et d'autres données à inclure proviennent de MERRA. Dans les scènes à ciel dégagé, l?ensoleillement direct normal (EDN) et l?ensoleillement horizontal global (EHG) sont calculés à l'aide du modèle de transfert radiatif REST2. Dans les scènes nuageuses représentées par le masque nuageux, le modèle rapide de rayonnement solaire plein ciel (FARMS) est utilisé pour calculer l?ensoleillement horizontal global (EHG). L?ensoleillement direct normal (EDN) des scènes nuageuses est ensuite calculé à l'aide du modèle DISC. Les données de cette couche correspondent à la moyenne de l?ensoleillement horizontal global horaire sur 17 ans (1998-2014).\n\nNOTE: Les données et les cartes de système d'information géographique (SIG) des ressources solaires pour l?Ensoleillement horizontal global (EHG) et l?Ensoleillement normal direct (END) ont été développées par le National Renewable Energy Laboratoy (NREL) et sont fournies pour le Canada à titre estimatif. En ce moment, ni les données NREL, ni le modèle solaire physique PSM (Physical Solar Model) sur lequel repose les données NREL, ont été évalués ou validés pour les applications particulières à la météorologie Canadienne. Une carte Canadienne de l?EHG développée par le ministère des Ressources naturelles Canada (RNCan) qui est basée sur le modèle de State University of New York (SUNY) et qui a été évaluée et validée pour les applications particulières à la météorologie canadienne est disponible à http://atlas.gc.ca/cerp-rpep/fr/."
+      }}}
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_593",
+      "#text": "completed; complété"
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_540",
+      "#text": "asNeeded; auBesoin"
+    }}}},
+    "gmd:graphicOverview": {"gmd:MD_BrowseGraphic":     {
+      "gmd:fileName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "http://ftp.geogratis.gc.ca/pub/fgp_pgf/thumbnail/nsrdb_psm_direct_normal_irradiance_dni.png"
+      }},
+      "gmd:fileDescription": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Display created for FGP"
+      }}
+    }},
+    "gmd:descriptiveKeywords":     [
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "United States"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "États-Unis"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Mexico"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Mexique"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_525",
+          "#text": "place; endroit"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Energy Potential"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Énergie potentiel"
+          }}}
+        },
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Renewable energy"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Énergie renouvelable"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Solar energy"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Énergie solaire"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }},
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2004"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_366",
+                "#text": "creation; création"
+              }}
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2015-03-25"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }}
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada; Library and Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+              }}}
+            },
+            "gmd:role": {"gmd:CI_RoleCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+              "@codeListValue": "RI_409",
+              "#text": "custodian; conservateur"
+            }}
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_609",
+        "#text": "otherRestrictions; autresRestrictions"
+      }},
+      "gmd:otherConstraints":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "National Renewable Energy Laboratory (\"NREL\"), Alliance for Sustainable Energy, LLC, U.S. Department of Energy (\"DOE\"). This GIS data was developed by the National Renewable Energy Laboratory (\"NREL\"), which is operated by the Alliance for Sustainable Energy, LLC for the U.S. Department of Energy (\"DOE\"). The user is granted the right, without any fee or cost, to use, copy, modify, alter, enhance and distribute this data for any purpose whatsoever, provided that this entire notice appears in all copies of the data. Further, the user of this data agrees to credit NREL in any publications or software that incorporate or use the data. Access to and use of the GIS data shall further impose the following obligations on the User. The names DOE/NREL may not be used in any advertising or publicity to endorse or promote any product or commercial entity using or incorporating the GIS data unless specific written authorization is obtained from DOE/NREL. The User also understands that DOE/NREL shall not be obligated to provide updates, support, consulting, training or assistance of any kind whatsoever with regard to the use of the GIS data. THE GIS DATA IS PROVIDED \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL DOE/NREL BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING BUT NOT LIMITED TO CLAIMS ASSOCIATED WITH THE LOSS OF DATA OR PROFITS, WHICH MAY RESULT FROM AN ACTION IN CONTRACT, NEGLIGENCE OR OTHER TORTIOUS CLAIM THAT ARISES OUT OF OR IN CONNECTION WITH THE ACCESS OR USE OF THE GIS DATA. The User acknowledges that access to the GIS data is subject to U.S. Export laws and regulations and any use or transfer of the GIS data must be authorized under those regulations. The User shall not use, distribute, transfer, or transmit GIS data or any products incorporating the GIS data except in compliance with U.S. export regulations. If requested by DOE/NREL, the User agrees to sign written assurances and other export-related documentation as may be required to comply with U.S. export regulations."
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "L'accès à ces services est sans restrictions à l'exception d'une reconnaissance de la source: - National Renewable Energy Laboratory (\"NREL\"), Alliance for Sustainable Energy, LLC, U.S. Department of Energy (\"DOE\") -"
+        }}}
+      }
+    }},
+    "gmd:spatialRepresentationType": {"gmd:MD_SpatialRepresentationTypeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+      "@codeListValue": "RI_635",
+      "#text": "vector; vecteur"
+    }},
+    "gmd:language":     [
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "eng; CAN"
+      }},
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "fra; CAN"
+      }}
+    ],
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "economy"},
+    "gmd:extent":     [
+      {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-179.12"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-52.63"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "10.27"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "59.99"
+        }}
+      }}}},
+      {"gmd:EX_Extent": {"gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "tp1",
+        "gml:beginPosition": "1998",
+        "gml:endPosition": "2014"
+      }}}}}}
+    ]
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat":     [
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ESRI REST"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "10.1.1"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "WMS"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1.3.0"
+        }}
+      }}
+    ],
+    "gmd:distributor": {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Natural Resources Canada; Earth Sciences Sector"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone": {"gmd:voice":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "voice; 1 (800) 6612638"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "voix; 1 (800) 6612638"
+          }}}
+        }}},
+        "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Geoinfo@Canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Geoinfo@Canada.ca"
+          }}}
+        }}}
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_412",
+        "#text": "distributor; distributeur"
+      }}
+    }}}},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       [
+                {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:role": "urn:xml:lang:eng-CAN",
+          "gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_resource_potential_of_north_america_en/MapServer/1"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "ESRI REST: Map Service"
+            }},
+            "gmd:name":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Solar Resource, NSRDB PSM Direct Normal Irradiance"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Solar Resource, NSRDB PSM Direct Normal Irradiance"
+              }}}
+            },
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Web Service;ESRI REST;eng"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Service Web;ESRI REST;eng"
+              }}}
+            }
+          }
+        },
+                {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:role": "urn:xml:lang:fra-CAN",
+          "gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://geoappext.nrcan.gc.ca/arcgis/rest/services/NACEI/energy_resource_potential_of_north_america_fr/MapServer/1"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "ESRI REST: Map Service"
+            }},
+            "gmd:name":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ressource solaire, NSRDB PSM Ensoleillement normal direct"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ressource solaire, NSRDB PSM Ensoleillement normal direct"
+              }}}
+            },
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Web Service;ESRI REST;fra"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Service Web;ESRI REST;fra"
+              }}}
+            }
+          }
+        }
+      ]}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:eng-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://geoappext.nrcan.gc.ca/arcgis/services/NACEI/energy_resource_potential_of_north_america_en/MapServer/WMSServer?request=GetCapabilities&service=WMS&layers=0&legend_format=image/png&feature_info_type=text/html"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "OGC:WMS"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Solar Resource, NSRDB PSM Direct Normal Irradiance  (Couche)"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Solar Resource, NSRDB PSM Direct Normal Irradiance  (Couche)"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;WMS;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;WMS;eng"
+            }}}
+          }
+        }
+      }}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:fra-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://geoappext.nrcan.gc.ca/arcgis/services/NACEI/energy_resource_potential_of_north_america_fr/MapServer/WMSServer?request=GetCapabilities&service=WMS&layers=0&legend_format=image/png&feature_info_type=text/html"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "OGC:WMS"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Ressource solaire, NSRDB PSM Ensoleillement normal direct (Couche)"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Ressource solaire, NSRDB PSM Ensoleillement normal direct (Couche)"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;WMS;fra"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;WMS;fra"
+            }}}
+          }
+        }
+      }}}
+    ]
+  }},
+  "gmd:dataQualityInfo": {"gmd:DQ_DataQuality":   {
+    "gmd:scope": {"gmd:DQ_Scope": {"gmd:level": {"gmd:MD_ScopeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+      "@codeListValue": "RI_622",
+      "#text": "dataset; jeuDonnées"
+    }}}},
+    "gmd:lineage": {"gmd:LI_Lineage": {"gmd:processStep": {"gmd:LI_ProcessStep":     {
+      "gmd:description":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Data provided by the partner was adjusted for publication within the Federal Geospatial Portal (FGP). The adjustments were made to the data model and do not affect the data content."
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Les données obtenues du partenaire ont été ajustées pour la publication dans la Plate-forme géospatiale fédérale (PGF). Les ajustements ont été faits au modèle de données et n'affectent pas le contenu des données."
+        }}}
+      },
+      "gmd:processor": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Earth Sciences Sector; Canada Centre for Mapping and Earth Observation"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des sciences de la Terre; Centre canadien de cartographie et d'observation de la Terre"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone": {"gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "voice; 1 (800) 6612638"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "voix; 1 (800) 6612638"
+            }}}
+          }}},
+          "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "NRCan.Geoinfo.RNCan@Canada.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "NRCan.Geoinfo.RNCan@Canada.ca"
+            }}}
+          }}}
+        }},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_416",
+          "#text": "processor; traiteur"
+        }}
+      }}
+    }}}}
+  }},
+  "geonet:info":   {
+    "id": "1371",
+    "schema": "iso19139.nap",
+    "createDate": "2016-06-28T08:46:43",
+    "changeDate": "2018-05-02T20:32:31",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "9554ed18-6ab2-477f-9545-da091eba762f",
+    "isHarvested": "n",
+    "popularity": "199",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "SupportGeobase",
+    "valid_details":     [
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      },
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/49"
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

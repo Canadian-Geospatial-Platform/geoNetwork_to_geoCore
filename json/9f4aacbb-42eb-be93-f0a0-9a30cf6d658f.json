@@ -1,0 +1,1441 @@
+{
+  "@xmlns": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "9f4aacbb-42eb-be93-f0a0-9a30cf6d658f"
+  }},
+  "gmd:language":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "eng; CAN"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "fra; CAN"
+    }}}
+  },
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact":   [
+    {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Christopher Harrison"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Christopher Harrison"
+        }}}
+      },
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Research Scientist"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Research Scientist"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "601 Booth Street"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "601 Booth Street"
+          }}}
+        },
+        "gmd:city":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ottawa"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ottawa"
+          }}}
+        },
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ontario"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ontario"
+          }}}
+        },
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Canada"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "christopher.harrison@canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "christopher.harrison@canada.ca"
+          }}}
+        }
+      }}}},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_418",
+        "#text": "author; auteur"
+      }}
+    }},
+    {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "nrcan.gsc-geosciencedata-donneesgeoscience-cgc.rncan@canada.ca"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "nrcan.gsc-geosciencedata-donneesgeoscience-cgc.rncan@canada.ca"
+        }}}
+      }}}}},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_414",
+        "#text": "pointOfContact; contact"
+      }}
+    }}
+  ],
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2019-09-09T20:14:00"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:dataSetURI":   {
+    "@gco:nilReason": "missing",
+    "gco:CharacterString": null
+  },
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:spatialRepresentationInfo": {"gmd:MD_VectorSpatialRepresentation": {"gmd:geometricObjects": {"gmd:MD_GeometricObjects": {"gmd:geometricObjectType": {"gmd:MD_GeometricObjectTypeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99",
+    "@codeListValue": ""
+  }}}}}},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "unknown"
+    }},
+    "gmd:codeSpace": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://www.epsg-registry.org/"
+    }},
+    "gmd:version": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "6.14"
+    }}
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Geological map of the Arctic, 1:5 000 000"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Carte géologique de l'Arctique, 1:5 000 000"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2011-02-01"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2011-02-01"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }}
+      ],
+      "gmd:edition": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "2159A"
+      }},
+      "gmd:citedResponsibleParty":       [
+        {"gmd:CI_ResponsibleParty":         {
+          "gmd:individualName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Christopher Harrison"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Christopher Harrison"
+            }}}
+          },
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+            }}}
+          },
+          "gmd:positionName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Research Scientist"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Research Scientist"
+            }}}
+          },
+          "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "601 Booth Street"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "601 Booth Street"
+              }}}
+            },
+            "gmd:city":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ottawa"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ottawa"
+              }}}
+            },
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ontario"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}}
+            },
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "christopher.harrison@canada.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "christopher.harrison@canada.ca"
+              }}}
+            }
+          }}}},
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_415",
+            "#text": "principalInvestigator; chercheurPrincipal"
+          }}
+        }},
+        {"gmd:CI_ResponsibleParty":         {
+          "gmd:individualName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Christopher Harrison"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Christopher Harrison"
+            }}}
+          },
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+            }}}
+          },
+          "gmd:positionName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Research Scientist"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Research Scientist"
+            }}}
+          },
+          "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "601 Booth Street"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "601 Booth Street"
+              }}}
+            },
+            "gmd:city":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ottawa"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ottawa"
+              }}}
+            },
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ontario"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}}
+            },
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "christopher.harrison@canada.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "christopher.harrison@canada.ca"
+              }}}
+            }
+          }}}},
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_413",
+            "#text": "originator; auteur"
+          }}
+        }},
+        {"gmd:CI_ResponsibleParty":         {
+          "gmd:individualName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Christopher Harrison"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Christopher Harrison"
+            }}}
+          },
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+            }}}
+          },
+          "gmd:positionName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Research Scientist"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Research Scientist"
+            }}}
+          },
+          "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "601 Booth Street"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "601 Booth Street"
+              }}}
+            },
+            "gmd:city":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ottawa"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ottawa"
+              }}}
+            },
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ontario"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}}
+            },
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "christopher.harrison@canada.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "christopher.harrison@canada.ca"
+              }}}
+            }
+          }}}},
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_409",
+            "#text": "custodian; conservateur"
+          }}
+        }},
+        {"gmd:CI_ResponsibleParty":         {
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada"
+            }}}
+          },
+          "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "nrcan.gsc-geosciencedata-donneesgeoscience-cgc.rncan@canada.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "nrcan.gsc-geosciencedata-donneesgeoscience-cgc.rncan@canada.ca"
+            }}}
+          }}}}},
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_414",
+            "#text": "pointOfContact; contact"
+          }}
+        }}
+      ],
+      "gmd:presentationForm": {"gmd:CI_PresentationFormCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+        "@codeListValue": "RI_391",
+        "#text": "mapDigital;carteNumérique"
+      }},
+      "gmd:series": {"gmd:CI_Series":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "A-Series Map"
+        }},
+        "gmd:issueIdentification": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "2159A"
+        }}
+      }},
+      "gmd:otherCitationDetails": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Harrison, J C; St-Onge, M R; Petrov, O V; Strelnikov, S I; Lopatin, B G; Wilson, F H; Tella, S; Paul, D; Lynds, T; Shokalsky, S P; Hults, C K; Bergman, S; Jepsen, H F; Solli, A, 2011.Geological map of the Arctic / Carte géologique de l'Arctique. Geological Survey of Canada, \"A\" Series Map 2159A, 9 sheets; 1 DVD, doi:10.4095/287868"
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "As part of the International Polar Year (IPY) 2007'08 and 2008'09 activities, and related objectives of the Commission for the Geological Map of the World (CGMW), nations of the circumpolar Arctic have co-operated to produce a new bedrock geology map and related digital map database at a scale of 1:5 000 000. The map, released in north polar stereographic projection using the World Geodetic System (WGS) 84 datum, includes complete geological and physiographic coverage of all onshore and offshore bedrock areas north of latitude 60° north."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Dans le cadre des activités 2007-2008 et 2008-2009 de l'Année internationale polaire (AIP) et des objectifs connexes de la Commission pour la Carte Géologique du Monde (CCGM), les nations de la région circumpolaire de l'Arctique ont élaboré, en collaboration, une carte de la géologie de la roche en place ainsi que les bases numériques de données cartographiques afférentes à l'échelle 1/5 000 000. La carte offre une couverture géologique et physiographique complète de toutes les régions continentales et extracôtières du socle rocheux, au nord de 60° de latitude nord."
+      }}}
+    },
+    "gmd:purpose":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Identified applications of the map and database include 1) providing a new geological, physiographic, and tectonic compilation and database context for all Precambrian and Phanerozoic map units that can be shown at 1:5 000 000 scale in the Arctic polar region; 2) documenting and understanding the spatial relationships between mineral/energy resources and"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Parmi les applications qui ont été identifiées pour la carte et la base de données cartographiques, on peut mentionner les suivantes : 1) fournir une nouvelle compilation géologique, physiographique et tectonique ainsi qu'un contexte base de données pour toutes les unités cartographiques du Précambrien et du Phanérozoïque qui peuvent être représentées à l'échelle 1/5 000 000 dans la région polaire arctique; 2) documenter et comprendre les liens spatiaux qui existent entre, d'une part, les ressources minérales/ énergétiques et, d'autre part, la géologie et la morphologie des régions continentales/extracôtières; 3) encourager l'exploration minérale et énergétique dans les régions pionnières grâce à une diffusion plus large des ensembles nationaux et internationaux de données géologiques; 4) transmettre des outils accessibles au public pour faciliter la planification de projets industriels, universitaires et gouvernementaux; 5) procurer un contexte géologique pour la gestion des ressources et des écosystèmes, les évaluations d'impact sur l'environnement, les préoccupations géotechniques et le développement de l'infrastructure; 6) évaluer les conditions géologiques qui sont liées aux aléas naturels, aux métaux dans l'environnement, ainsi qu'aux questions se rapportant aux bassins versants et à l'eau souterraine; et 7) fournir une interprétation géologique qui puisse être utilisée par les gouvernements et les revendicateurs de terres pour évaluer les demandes touchant les questions de souveraineté et de juridiction.Bien que l'un des objectifs à court terme de cette imposante synthèse ait été la production d'une nouvelle carte géologique sur papier de la région circumpolaire arctique, la véritable valeur de ce projet repose dans la base de données qui a été élaborée et de laquelle la carte est dérivée. Ces archives numériques de données spatiales de la région circumpolaire arctique constituent un trésor pour la réalisation de produits numériques officiels, mais aussi de produits cartographiques de caractère informel aux paramètres définis par l'utilisateur. Prises ensemble, ces données peuvent servir de modèle permettant d'étendre la couverture cartographique numérique, aussi bien en profondeur sous la surface que dans d'autres régions du monde."
+      }}}
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_593",
+      "#text": "completed; complété"
+    }},
+    "gmd:pointOfContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Marc St-Onge"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Marc St-Onge"
+        }}}
+      },
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Research Scientist"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Research Scientist"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "601 Booth Street"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "601 Booth Street"
+          }}}
+        },
+        "gmd:city":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ottawa"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ottawa"
+          }}}
+        },
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ontario"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ontario"
+          }}}
+        },
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Canada"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "marc.stonge@canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "marc.stonge@canada.ca"
+          }}}
+        }
+      }}}},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_418",
+        "#text": "author; auteur"
+      }}
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_540",
+      "#text": "asNeeded; auBesoin"
+    }}}},
+    "gmd:graphicOverview": {"gmd:MD_BrowseGraphic": {"gmd:fileName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "thumbnails/9f4aacbb-42eb-be93-f0a0-9a30cf6d658f.jpg"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "thumbnails/9f4aacbb-42eb-be93-f0a0-9a30cf6d658f.jpg"
+      }}}
+    }}},
+    "gmd:descriptiveKeywords": {"gmd:MD_Keywords":     {
+      "gmd:keyword":       [
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Geological maps"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Carte géologique"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Geology"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Géologie"
+          }}}
+        }
+      ],
+      "gmd:type": {"gmd:MD_KeywordTypeCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+        "@codeListValue": "RI_528",
+        "#text": "theme; thème"
+      }},
+      "gmd:thesaurusName": {"gmd:CI_Citation":       {
+        "gmd:title":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada Core Subject Thesaurus"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+          }}}
+        },
+        "gmd:date":         [
+          {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2004"
+            }},
+            "gmd:dateType": {"gmd:CI_DateTypeCode":             {
+              "@codeListValue": "RI_366",
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "#text": "creation;création"
+            }}
+          }},
+          {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2016-07-04"
+            }},
+            "gmd:dateType": {"gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_367",
+              "#text": "publication; publication"
+            }}
+          }}
+        ],
+        "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":         {
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Library and Archives Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+            }}}
+          },
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeListValue": "RI_409",
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "#text": "custodian; conservateur"
+          }}
+        }}
+      }}
+    }},
+    "gmd:resourceConstraints":     [
+      {"gmd:MD_Constraints": {"gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "No constraint"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Aucune contrainte"
+        }}}
+      }}},
+      {"gmd:MD_LegalConstraints":       {
+        "gmd:useLimitation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+          }}}
+        },
+        "gmd:accessConstraints": {"gmd:MD_RestrictionCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_606",
+          "#text": "license; licence"
+        }},
+        "gmd:useConstraints": {"gmd:MD_RestrictionCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_609",
+          "#text": "otherRestrictions; autresRestrictions"
+        }}
+      }}
+    ],
+    "gmd:spatialRepresentationType": {"gmd:MD_SpatialRepresentationTypeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+      "@codeListValue": "RI_635",
+      "#text": "vector; vecteur"
+    }},
+    "gmd:spatialResolution": {"gmd:MD_Resolution": {"gmd:equivalentScale": {"gmd:MD_RepresentativeFraction": {"gmd:denominator": {"gco:Integer":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "5000000"
+    }}}}}},
+    "gmd:language":     [
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "eng; CAN"
+      }},
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "fra; CAN"
+      }}
+    ],
+    "gmd:characterSet": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }},
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "geoscientificInformation"},
+    "gmd:extent": {"gmd:EX_Extent":     {
+      "gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:extentTypeCode": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }},
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-180.000000000"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "180.000000000"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "60.000000000"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "90.000000000"
+        }}
+      }},
+      "gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "time_per1",
+        "gml:beginPosition": "2006-01-31",
+        "gml:endPosition": "2011-01-31"
+      }}}}
+    }}
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat": {"gmd:MD_Format":     {
+      "gmd:name": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "FGDB/GDB"
+      }},
+      "gmd:version": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "not applicable"
+      }}
+    }},
+    "gmd:distributor":     [
+      {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":       {
+        "gmd:individualName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Christopher Harrison"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Christopher Harrison"
+          }}}
+        },
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+          }}}
+        },
+        "gmd:positionName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Research Scientist"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Research Scientist"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "601 Booth Street"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "601 Booth Street"
+            }}}
+          },
+          "gmd:city":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Ottawa"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Ottawa"
+            }}}
+          },
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Ontario"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Ontario"
+            }}}
+          },
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "christopher.harrison@canada.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "christopher.harrison@canada.ca"
+            }}}
+          }
+        }}}},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_412",
+          "#text": "distributor; distributeur"
+        }}
+      }}}},
+      {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "nrcan.gsc-geosciencedata-donneesgeoscience-cgc.rncan@canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "nrcan.gsc-geosciencedata-donneesgeoscience-cgc.rncan@canada.ca"
+          }}}
+        }}}}},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }}
+      }}}}
+    ],
+    "gmd:transferOptions": {"gmd:MD_DigitalTransferOptions":     {
+      "gmd:transferSize": {"gco:Real":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "1091"
+      }},
+      "gmd:onLine":       [
+                {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:role": "urn:xml:lang:fra-CAN",
+          "gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://canada3d.geosciences.ca/geoserver/GSC_EN_Geological_Formations/ows?service=WMS&version=1.3.0&request=GetCapabilities&layers=GSC_EN_Geological_Formations:Arctic_CA_US_GSC_EN_5M_Onshore_Bedrock_Geology&legend_format=image/png&feature_info_type=text/html"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "OGC:WMS"
+            }},
+            "gmd:name":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Geological map of the Arctic, 1:5 000 000 - French"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Carte géologique de l'Arctique, 1:5 000 000 - français"
+              }}}
+            },
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Web Service;WMS;fra"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Service Web;WMS;fra"
+              }}}
+            },
+            "gmd:function": {"gmd:CI_OnLineFunctionCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+              "@codeListValue": "RI_385",
+              "#text": "webMapService; serviceCartesweb"
+            }}
+          }
+        },
+                {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:role": "urn:xml:lang:eng-CAN",
+          "gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://canada3d.geosciences.ca/geoserver/GSC_EN_Geological_Formations/ows?service=WMS&version=1.3.0&request=GetCapabilities&layers=GSC_EN_Geological_Formations:Arctic_CA_US_GSC_EN_5M_Onshore_Bedrock_Geology&legend_format=image/png&feature_info_type=text/html"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "OGC:WMS"
+            }},
+            "gmd:name":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Geological map of the Arctic, 1:5 000 000 - English"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Carte géologique de l'Arctique, 1:5 000 000 - anglais"
+              }}}
+            },
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Web Service;WMS;eng"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Service Web;WMS;eng"
+              }}}
+            },
+            "gmd:function": {"gmd:CI_OnLineFunctionCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+              "@codeListValue": "RI_385",
+              "#text": "webMapService; serviceCartesweb"
+            }}
+          }
+        },
+                {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:role": "urn:xml:lang:fra-CAN",
+          "gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=287868"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "HTTP"
+            }},
+            "gmd:name":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Geological map of the Arctic, 1:5 000 000 - French"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Carte géologique de l'Arctique, 1:5 000 000 - français"
+              }}}
+            },
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Dataset;HTML;fra"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Données;HTML;fra"
+              }}}
+            },
+            "gmd:function": {"gmd:CI_OnLineFunctionCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+              "@codeListValue": "RI_375",
+              "#text": "download; téléchargement"
+            }}
+          }
+        },
+                {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:role": "urn:xml:lang:eng-CAN",
+          "gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "https://geoscan.nrcan.gc.ca/starweb/geoscan/servlet.starweb?path=geoscan/downloade.web&search1=R=287868"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "HTTP"
+            }},
+            "gmd:name":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Geological map of the Arctic, 1:5 000 000 - English"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Carte géologique de l'Arctique, 1:5 000 000 - anglais"
+              }}}
+            },
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Dataset;HTML;eng"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Données;HTML;eng"
+              }}}
+            },
+            "gmd:function": {"gmd:CI_OnLineFunctionCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+              "@codeListValue": "RI_375",
+              "#text": "download; téléchargement"
+            }}
+          }
+        }
+      ]
+    }}
+  }},
+  "gmd:dataQualityInfo": {"gmd:DQ_DataQuality":   {
+    "gmd:scope": {"gmd:DQ_Scope": {"gmd:level": {"gmd:MD_ScopeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+      "@codeListValue": "RI_622",
+      "#text": "dataset; jeuDonnées"
+    }}}},
+    "gmd:lineage": {"gmd:LI_Lineage":     {
+      "gmd:statement":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Dataset creation"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Création du jeu de données"
+        }}}
+      },
+      "gmd:processStep": {"gmd:LI_ProcessStep":       {
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Development of the Geological map of the Arctic and its related database was led by a Geological Survey of Canada (GSC) team based in Ottawa and Calgary, with the active participation of scientific and technical staff from the geological surveys of Russia, the United States, Norway, Sweden, and Denmark. Project work began in February 2006, and a draft version of the map was presented at the 2008 International Geological Congress (IGC) in Oslo, Norway. A preliminary version of the map was then published as GSC Open File 5816 in November 2008. Updates, revisions, and finalization of the digital files underlying the geological map were completed during 2009-10,\nleading to the release of the final paper and digital versions on February 1, 2011.\nThere were many challenges in undertaking a map compilation of this magnitude both technically and geologically. It was important for the compilers to analyze the implications of variables such as map scale, level of attribution, data formatting, classification schemes, and map coverage to implement a coherent and uniform approach to the project. Examples of some of these challenges are given below, with specific details and the rationale for how the polar map compilation was achieved presented in sections 2 to 5.\nSome of the technical challenges included the conversion of numerous paper regional maps to digital data, and converting existing diverse digital products to a common database standard. Building a custom topographic base map was necessary to resolve issues of proper registration of geology to shorelines, ice caps, and bathymetric contours. Hundreds of source maps had to be simplified from a wide variety of source scales. Authors were required to create and manage lists of published and unpublished source materials, and credit the more than 50 minor and major project participants.\nMap coverage for the extent of the polar region was fairly complete, although some unmapped areas within Canada and offshore required some additional interpolative tools including geophysics, Landsat imagery, and bathymetry to complete the data.\nThe geological challenges faced were as diverse as agreeing to what constitutes a geology map, what to show, how to show it, and how to build the database. Geologists from some countries needed convincing that rock types could be displayed at 1:5 000 000 scale; others insisted on including surficial (sand, gravel, clay) materials. Agreement on several other features had to be found, including the use of standard terms for geological time periods, definition of map units in the deep ocean basins where Quaternary cover is widespread on the seafloor, and the importance of plate tectonic features. Interpretive inconsistencies along map boundaries (between and within countries) had to be resolved. For the geology of the Russian Arctic, the challenge was to augment the compositional description of supracrustal and lower grade metamorphic units, normally identified by age range only on the smallest scale maps.\nA particularly challenging aspect to compiling a map of this scale and extent was to develop a method and rationale for the reclassification of thousands of geological units. A normalized numeric coding scheme was developed to reclassify and generalize the highly variable source-map features while maintaining as much original attribute detail as possible. A second goal was to add new interpretations and attribution at the circumpolar scale through building and querying the spatial distribution of geological features within the database.\nProducing a meaningful legend proved to be another challenge due to fundamental differences in the source data and representation of Phanerozoic and Precambrian geology. This led to the design of two different but complementary legends and global-correlation charts. Precambrian units were classified by tectonic domain, providing a basis for correlation of map units within a global tectonic context with alphanumeric map labels emphasizing individual compositional settings and numbered in terms of global relative maximum age from oldest to youngest. Phanerozoic units were grouped by geographic region, providing a basis for documenting the correlation of map units through geological time with each alphanumeric map label implying a unique age and setting with selected compositional variation expressed by a pattern overlay on top of colour.\nCollaboration and communication among international contributing authors was complex, given language differences, geographic distance, and at times, transient conflicting scientific interpretations. Ultimately, with patience and compromise, consensus was achieved with the final circumpolar map and database product.\nThe map compilation database was created using ESRI® ArcGIS® Desktop version 9.3.1. The main geological spatial database is provided in ESRI file geodatabase format, and accompanying layer and style files and fonts are provided for visualization of geological feature classes within ArcMapTM and ArcReaderTM software.\nThe ArcMap project file (.mxd) and file geodatabase were created under version 9.3.1 and are not backwards compatible with older versions of the software.\nESRI ArcReader software and published map format (.pmf) files are provided to allow users without access to ArcGIS software to view and identify feature attributes within the map database.\nAll feature classes within the file geodatabase have been exported as shapefiles (.shp) for use with other geographic information system (GIS) software.\nOther supplementary files in this release include .pdf versions of the published paper map, legend, and correlation charts (5 sheets)."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "L'élaboration de la Carte géologique de l'Arctique et de la base de données afférente a été dirigée par une équipe de la Commission géologique du Canada (CGC) basée à Ottawa et à Calgary, avec la participation active des scientifiques et du personnel technique des services géologiques de la Russie, des États-Unis, de la Norvège, de la Suède et du Danemark. Le travail associé au projet a débuté en février 2006, et une version provisoire de la carte a été présentée au Congrès géologique international de 2008 à Oslo, en Norvège. Une version préliminaire de la carte a ensuite été publiée en tant que Dossier public 5816 de la CGC en novembre 2008. Des mises à jour, des révisions et la finalisation des fichiers numériques sous-jacents ont été réalisées en 2009-2010 pour aboutir à la version définitive de la carte en formats papier et numérique le 1er février 2011.\nUn travail de compilation cartographique de cette ampleur a comporté de nombreux défis, à la fois techniques et géologiques. Il était important pour les compilateurs d'analyser les conséquences des variables comme l'échelle de la carte, le niveau d'attribution, le formatage des données, les schémas de classification et l'étendue de la couverture cartographique afin d'établir une méthode cohérente pour le projet. Dans les sections 2 à 5 ci-dessous, nous présentons quelques exemples de ces défis, ainsi que des détails précis sur la façon dont la compilation de la carte polaire a été menée et les raisons qui la sous-tendent.\nParmi les défis techniques, mentionnons la numérisation de nombreuses cartes papier à l'échelle régionale et la conversion de divers produits numériques existants en un format commun pour l'établissement de la base de données. Il a été nécessaire d'établir une carte topographique sur mesure pour résoudre les problèmes de repérage des entités géologiques avec les traits de côte, les calottes glaciaires et les courbes bathymétriques. Les auteurs ont dû simplifier des centaines de cartes source réalisées à une grande variété d'échelles. De plus, ils ont dû concevoir des méthodes pour faire référence aux sources publiées et inédites, et reconnaître la contribution des participants tant principaux que secondaires au projet, le nombre total final de collaborateurs nommés s'établissant à pas moins de 50 personnes. La couverture cartographique de la région polaire était assez complète, mais certaines régions laissées en blanc au large des côtes et à l'intérieur du Canada ont nécessité le recours à des outils additionnels d'interpolation, dont la géophysique, l'imagerie Landsat et la bathymétrie.\nLes défis géologiques étaient aussi diversifiés, car il a fallu s'entendre sur ce que constitue une carte géologique, quoi représenter, comment le représenter et comment élaborer la base de données. Les géologues de certains pays n'étaient pas convaincus que l'on pouvait afficher les types de roches à l'échelle 1/5 000 000. D'autres ont insisté sur l'inclusion des dépôts meubles, comme le sable, le gravier et l'argile. Il a fallu s'entendre sur plusieurs autres caractéristiques de la carte, notamment l'utilisation d'une terminologie uniforme pour les périodes de temps géologiques, la definition des unités cartographiques dans les bassins océaniques profonds où la couverture de dépôts quaternaires est très répandue sur le plancher océanique, ainsi que l'importance des entités associées à la tectonique des plaques. Il a aussi fallu résoudre des incohérences d'interprétation aux frontières cartographiques entre les pays et à l'intérieur de ceux-ci. Pour la géologie de l'Arctique russe, le défi a été de bonifier la description compositionnelle des unités de roches supracrustales et des unités de roches de faible degré de métamorphisme, habituellement identifiées par tranches d'âges seulement sur les cartes à petite échelle.\nUn aspect particulièrement difficile pour la compilation d'une carte à cette échelle et couvrant une telle étendue était d'élaborer et de justifier une méthode de reclassification de milliers d'unités géologiques. Un schéma normalisé de codification numérique a été élaboré pour reclassifier et généraliser les entités sur les cartes d'origines très diversifiées, tout en conservant le plus de détails possibles sur les attributs originaux. Un deuxième objectif était d'ajouter de nouvelles interprétations et de nouveaux attributs à l'échelle circumpolaire en versant les entités géologiques dans la base de données, et en effectuant des interrogations sur leur répartition spatiale.\nUn autre défi a été de produire une légende utile, en raison de différences fondamentales dans les données source et la représentation de la géologie du Précambrien et de celle du Phanérozoïque. Les auteurs ont donc conçu deux légendes et deux tableaux de corrélation globale, différents, mais complémentaires : les unités du Précambrien ont été classées par domaine tectonique, constituant ainsi une base pour la corrélation des unités cartographiques dans un contexte tectonique global, avec des étiquettes alphanumériques décrivant les divers cadres compositionnels et classées numériquement à l'échelle planétaire suivant l'âge maximal relatif, de la plus ancienne à la plus récente. Les unités du Phanérozoïque ont été regroupées par région géographique afin de constituer une base pour documenter la corrélation des unités cartographiques tout au long des temps géologiques, chaque étiquette alphanumérique indiquant un âge et un milieu uniques avec une variation compositionnelle choisie et exprimée par un motif texturé superposé à la couleur.\nLa collaboration et les communications entre les auteurs collaborateurs des divers pays ont été complexes, en raison des diverses langues utilisées, de l'éloignement et, à l'occasion, des interprétations scientifiques momentanément contradictoires. En fin de compte, avec de la patience et grâce à des compromis, un consensus a été atteint pour la version définitive de la carte circumpolaire et la base de données afférente.\nLa base de données utilisée pour la compilation de la carte a été créée à l'aide du logiciel ArcGIS® Desktop version 9.3.1 d'ESRI®. La principale base de données géologiques spatiales est réalisée dans le format de géodatabase fichier (file geodatabase) d'ESRI® et les fichiers connexes des couches et des styles, ainsi que les polices sont fournis pour la visualisation des classes d'entités géologiques dans ArcMap? et ArcReader?.\nLe fichier de projet ArcMap (.mxd) et la géodatabase fichier ont été créés dans la version 9.3.1 et ne sont pas compatibles avec les versions précédentes du logiciel.\nLe logiciel ArcReader d'ESRI et les fichiers en format .pmf (published map format) sont fournis pour permettre aux utilisateurs ne disposant pas du logiciel ArcGIS de visualiser et d'identifier les attributs des entités dans la base de données cartographiques.\nToutes les classes d'entités dans la géodatabase fichier ont été exportées sous forme de fichiers de formes (.shp; shapefile) pour être utilisables avec d'autres logiciels SIG.\nLes autres fichiers supplémentaires dans cette publication comprennent les versions .pdf de la publication sur papier, constituée de carte, de la légende et des tableaux de corrélation (5 feuilles)."
+          }}}
+        },
+        "gmd:dateTime": {"gco:DateTime":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "2011-02-01T00:00:00.0"
+        }},
+        "gmd:processor": {"gmd:CI_ResponsibleParty":         {
+          "gmd:individualName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Christopher Harrison"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Christopher Harrison"
+            }}}
+          },
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Natural Resources Canada; Geological Survey of Canada - GSC Central Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Ressources naturelles Canada; Commission géologique du Canada - CGC Centre du Canada"
+            }}}
+          },
+          "gmd:positionName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Research Scientist"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Research Scientist"
+            }}}
+          },
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_416",
+            "#text": "processor; traiteur"
+          }}
+        }},
+        "gmd:source": {"gmd:LI_Source": {"gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Multiple sources, data from the geological surveys of Canada, Russia, the United States, Norway, Sweden, and Denmark"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Sources multiples, données en provenance des services géologiques du Canada, de la Russie, des États-Unis, de la Norvège, de la Suède et du Danemark."
+          }}}
+        }}}
+      }}
+    }}
+  }},
+  "gmd:metadataMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+    "@codeListValue": "RI_540",
+    "#text": "asNeeded; auBesoin"
+  }}}},
+  "geonet:info":   {
+    "id": "5551",
+    "schema": "iso19139.nap",
+    "createDate": "2018-02-05T18:53:46",
+    "changeDate": "2019-09-09T20:14:00",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "9f4aacbb-42eb-be93-f0a0-9a30cf6d658f",
+    "isHarvested": "n",
+    "popularity": "92",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "François",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/111"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

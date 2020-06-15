@@ -1,0 +1,908 @@
+{
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "c20d97e7-60d8-4df8-8611-4d499a796493"
+  }},
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_623",
+    "#text": "series; série"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Government of Canada; Agriculture and Agri-Food Canada; Science and Technology Branch"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Gouvernement du Canada; Agriculture et Agroalimentaire Canada; direction générale des sciences et de la technologie"
+      }}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact":     {
+      "gmd:address": {"gmd:CI_Address":       {
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Canada"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Agri-Geomatics-Agrog@agr.gc.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Agri-Geomatics-Agrog@agr.gc.ca"
+          }}}
+        }
+      }},
+      "gmd:onlineResource": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Program Home Page"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Page Web du programme"
+          }}}
+        }
+      }}
+    }},
+    "gmd:role": {"gmd:CI_RoleCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+      "@codeListValue": "RI_414",
+      "#text": "pointOfContact; contact"
+    }}
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2018-07-09T15:17:38"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeListValue": "CAN",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeListValue": "RI_458",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "EPSG: 3857"
+    }},
+    "gmd:codeSpace": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "www.epsg.org"
+    }},
+    "gmd:version": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "8.3.4"
+    }}
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "AAFC Watershed Project - 2013"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Projet des bassins hydrographiques d?AAC (2013)"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2013-04-05"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2013-04-05"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }}
+      ],
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Agriculture and Agri-Food Canada; Science and Technology Branch"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Agriculture et Agroalimentaire Canada; direction générale des sciences et de la technologie"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:address": {"gmd:CI_Address":           {
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Agri-Geomatics-Agrog@agr.gc.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Agri-Geomatics-Agrog@agr.gc.ca"
+              }}}
+            }
+          }},
+          "gmd:onlineResource": {"gmd:CI_OnlineResource":           {
+            "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca"},
+            "gmd:protocol": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "HTTPS"
+            }},
+            "gmd:description":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Program Home Page"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Page Web du programme"
+              }}}
+            }
+          }}
+        }},
+        "gmd:role": {"gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }}
+      }},
+      "gmd:presentationForm": {"gmd:CI_PresentationFormCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+        "@codeListValue": "RI_391",
+        "#text": "mapDigital;carteNumérique"
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "The Agriculture and Agri-Food Canada?s (AAFC) Watersheds Project level series supplies a number of watershed and watershed related datasets for the Prairie Provinces.  The levels are greater or smaller assemblages of hydrometric areas, or the components defining them. \nThe Project is organized by hydrometric gauging stations which are sourced from Environment Canada, the United States, and Canadian provinces. Additional stations were generated to address structural issues, like river confluences or lake inlets. Collectively, they are referred to as the gauging stations, or simply, the stations.\nThe drainage area that each station monitors, between itself and one or more of its upstream neighbours, is called an ?incremental gross drainage area?. \nThe incremental gross drainage areas are collected into larger or smaller groupings based on size or defined interest to generate the various ?levels ?of the series. They include:\nBasins of varying size:\n1.\tMajor drainage systems (3): Arctic Ocean, Hudson Bay and Gulf of Mexico;\n2.\tMajor basins (23): associated with river or lake reaches;\n3.\tProject sub-basins (47): created specifically for the project;\n4.\tSub-basins (51): based on specific Environment Canada hydrometric gauging station locations;\n5.\tSub-sub-basins (311): based on specific Environment Canada hydrometric gauging station locations);\nIncremental drainage areas:\n6.\tIncremental gross drainage areas: one per gauging station.\nThe incremental gross drainage areas are further subdivided into portions that either contribute or do not contribute to drainage to an average runoff event. The portions that do contribute are called ?effective drainage? areas, while those that don?t are called ?non-contributing?. These generate the following levels: \n7.\tIncremental effective drainage areas; and\n8.\tIncremental non-contributing areas.\nTotal drainage areas:\n9.\tTotal gross drainage areas;\n10.\tTotal effective drainage areas; and\n11.\tTotal non-contributing areas; \nAnd when combined for the entire project, yields the:\n12.\tEffective drainage area.\nThe series also includes the components:\n13.\tThe gauging stations;\n14.\tThe collection of boundaries (lines) of the gross incremental drainage areas as well as the boundaries that separate contributing from non-contributing areas for an average runoff event; and\n15.\tA network of downstream-directed lines that connect the gauging stations.\nAll linework is derived from large scale topographic data.\nOne additional non-spatial dataset, a table of tallied values by gauging station, is provided:\n16.\tThe Project Gauging Station Table.\nThe Project area, designed for the Prairie Provinces, covers all of Alberta, Saskatchewan and Manitoba, and those portions of British Columbia, Northwest Territories, Nunavut, Ontario, and the United States that are required to complete the trans-border sections of the watersheds.\nSince 1975 the AAFC Watersheds Project has systematically collected and refined watershed boundaries for the Prairies. The result is the authoritative source for gross and effective drainage areas in the Prairie Provinces.  The initial 1:50,000 analog delineations were moved to their digital form in 1994. Since then, the delineations have increased in accuracy and extent, and the series levels have increased to 16 in number."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Les séries de niveaux du Projet des bassins hydrographiques d?Agriculture et Agroalimentaire Canada; direction générale des sciences et de la technologie; Division de l'agroclimatique, de la géomatique, et de l'observation de la terre;  Observations de la terre direction générale des sciences et de la technologie; Division de l'agroclimatique, de la géomatique, et de l'observation de la terre;  Observations de la terre; direction générale des sciences et de la technologie; Division de l'agroclimatique, de la géomatique, et de l'observation de la terre; Géomatiques ; direction générale des sciences et de la technologie; Division de l'agroclimatique, de la géomatique, et de l'observation de la terre; Agroclimatique; direction générale des sciences et de la technologie; Division de l'agroclimatique, de la géomatique, et de l'observation de la terre; Géomatiques (AAC) fournissent un certain nombre de jeux de données sur des bassins hydrographiques et en lien avec des bassins hydrographiques pour les provinces des Prairies. Les niveaux sont des petits ou des gros assemblages de zones hydrométriques ou des composantes qui les définissent. \nLe Projet est organisé selon les stations hydrométriques qui sont fournies par Environnement Canada, les États-Unis et des provinces canadiennes. Des stations additionnelles ont été générées pour régler les problèmes structuraux, comme les confluences de rivière ou les bras de lacs. Collectivement, elles sont désignées comme les stations hydrométriques, ou tout simplement les stations.\nLa superficie des bassins surveillée par chaque station, entre elle-même et ses stations voisines d?amont, est appelée « superficie brute différentielle des bassins hydrographiques ». \nLes superficies brutes différentielles des bassins hydrographiques sont intégrées dans des regroupements plus grands ou plus petits d?après la taille ou l?intérêt défini de générer divers « niveaux » de séries. Ces séries comprennent ce qui suit.\nBassins de diverses superficies :\n1.\tprincipaux réseaux hydrographiques (3) : océan Arctique, baie d?Hudson et golfe du Mexique;\n2.\tprincipaux bassins (23) : associés à des tronçons de rivière ou de lac; \n3.\tsous-bassins du Projet (47) : créés spécifiquement pour le Projet; \n4.\tsous-bassins (51) : basés sur les emplacements de stations hydrométriques spécifiques d?Environnement Canada;\n5.\tsous-sous-bassins (311) : basés sur les emplacements de stations hydrométriques spécifiques d?Environnement Canada.\nSuperficies différentielles des bassins hydrographiques :\n6.\tsuperficies brutes différentielles des bassins hydrographiques : une par station hydrométrique.\nLes superficies brutes différentielles des bassins hydrographiques sont sous-divisées en parties qui contribuent ou non à l?écoulement lors d?un épisode de ruissellement moyen. La superficie effective de drainage comprend les parties qui contribuent au ruissellement, et la superficie à contribution nulle comprend les parties qui ne contribuent pas au ruissellement. Ces concepts génèrent les niveaux suivants : \n7.\tsuperficies effectives différentielles des bassins hydrographiques;\n8.\tsuperficies différentielles à contribution nulle.\nSuperficies totales des bassins hydrographiques :\n9.\tsuperficies brutes totales des bassins hydrographiques;\n10.\tsuperficies effectives totales des bassins hydrographiques;\n11.\tsuperficies totales à contribution nulle. \nLorsqu?elles sont combinées pour l?ensemble du projet, on obtient :\n12.\tla superficie effective des bassins hydrographiques.\nLes séries comprennent aussi ces composantes :\n13.\tles stations hydrométriques;\n14.\tl?ensemble des limites (lignes) des superficies brutes différentielles des bassins hydrographiques ainsi que des limites qui séparent les parties effectives des parties à contribution nulle pour un épisode de ruissellement moyen;\n15.\tun réseau de lignes orientées vers l?aval qui relie les stations hydrométriques.\nToutes les lignes sont dérivées des données topographiques à grande échelle.\nUn jeu de données non spatiales supplémentaire, soit un tableau de valeurs cumulées par station hydrométrique, est fourni :\n16.\tle tableau du Projet des stations hydrométriques.\nLa zone du Projet, élaborée pour les provinces des Prairies, comprend la totalité de l?Alberta, de la Saskatchewan et du Manitoba, et les parties de la Colombie-Britannique, des Territoires du Nord Ouest, du Nunavut, de l?Ontario et des États-Unis requises pour compléter les parties transfrontalières des bassins hydrographiques.\nDepuis 1975, le Projet des bassins hydrographiques d?AAC recueille et affine systématiquement des données sur les limites des bassins hydrographiques des Prairies. Le résultat est une source qui fait autorité pour les superficies brutes et effectives des bassins hydrographiques dans les provinces des Prairies. Les délimitations analogues initiales à l?échelle de 1/50 000 ont été converties en format numérique en 1994. Depuis, l?exactitude et l?étendue des délimitations se sont accrues, et les niveaux de séries sont rendus au nombre de 16."
+      }}}
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_593",
+      "#text": "completed; complété"
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_543",
+      "#text": "unknown; inconnu"
+    }}}},
+    "gmd:graphicOverview": {"gmd:MD_BrowseGraphic": {"gmd:fileName": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://www.agr.gc.ca/atlas/supportdocument_documentdesupport/aafcWatersheds2013/aafcWatershed.jpg"
+    }}}},
+    "gmd:descriptiveKeywords": {"gmd:MD_Keywords":     {
+      "gmd:keyword":       [
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Watersheds"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Bassin hydrologique"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Hydrology"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Hydrologie"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Water"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Eau"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Drainage"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Drainage"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Inland waters"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Eaux intérieures"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Western provinces"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Provinces de l'Ouest"
+          }}}
+        }
+      ],
+      "gmd:thesaurusName": {"gmd:CI_Citation":       {
+        "gmd:title":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada Core Subject Thesaurus"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+          }}}
+        },
+        "gmd:date":         [
+          {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2013-11-05"
+            }},
+            "gmd:dateType": {"gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_367",
+              "#text": "publication; publication"
+            }}
+          }},
+          {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2013-11-05"
+            }},
+            "gmd:dateType": {"gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_366",
+              "#text": "creation; création"
+            }}
+          }}
+        ],
+        "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":         {
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Library and Archives Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+            }}}
+          },
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_409",
+            "#text": "custodian; conservateur"
+          }}
+        }}
+      }}
+    }},
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }}
+    }},
+    "gmd:spatialRepresentationType":     [
+      {"gmd:MD_SpatialRepresentationTypeCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+        "@codeListValue": "RI_635",
+        "#text": "vector; vecteur"
+      }},
+      {"gmd:MD_SpatialRepresentationTypeCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+        "@codeListValue": "RI_637",
+        "#text": "textTable; texteTable"
+      }}
+    ],
+    "gmd:language": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "eng; CAN"
+    }},
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "inlandWaters"},
+    "gmd:extent":     [
+      {"gmd:EX_Extent": {"gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "timeperiod1",
+        "gml:beginPosition": "2013-01-01",
+        "gml:endPosition": null
+      }}}}}},
+      {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-124"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-90"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "45"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "61"
+        }}
+      }}}}
+    ]
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributor": {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Agriculture and Agri-Food Canada; Science and Technology Branch"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Agriculture et Agroalimentaire Canada; direction générale des sciences et de la technologie"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Agri-Geomatics-Agrog@agr.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Agri-Geomatics-Agrog@agr.gc.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTPS"
+          }},
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Program Home Page"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Page Web du programme"
+            }}}
+          }
+        }}
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_414",
+        "#text": "pointOfContact; contact"
+      }}
+    }}}},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca/atlas/supportdocument_documentdesupport/aafcWatersheds2013/en/ISO_19131_AAFC_Watersheds_Project_2013_Data_Product_Specification.pdf"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Data Product Specification (English)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Spécifications du produit (Anglais)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;PDF;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;PDF;eng"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca/atlas/supportdocument_documentdesupport/aafcWatersheds2013/fr/Projet_des_bassins_hydrographiques_d_AAC_2013_Specifications_de_contenu_informationnel_ISO_19131.pdf"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Data Product Specification (French)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Spécifications du produit (Français)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;PDF;fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;PDF;fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca/atlas/data_donnees/hyd/aafcWatersheds2013/fgdb/"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Pre-packaged FGDB files"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Fichiers FGDB préemballés"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;FGDB/GDB;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;FGDB/GDB;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://www.agr.gc.ca/atlas/data_donnees/hyd/aafcWatersheds2013/gml/"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Pre-packaged GML files"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Fichiers GML préemballés"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;GML;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;GML;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://www.arcgis.com/home/item.html?id=9c2e6ea87692432c8e66c4332704a17f"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AAFC Watershed Project - 2013 (AGOL) (English)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Projet des bassins hydrographiques d?AAC (2013) (AGOL) (Anglais)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Web Service;ESRI REST;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Service Web;ESRI REST;eng"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://www.arcgis.com/home/item.html?id=0898ad2a7629433ebe4e2feaed4f6a1d"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AAFC Watershed Project - 2013 (AGOL) (French)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Projet des bassins hydrographiques d?AAC (2013) (AGOL) (Français)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Web Service;ESRI REST;fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Service Web;ESRI REST;fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://www5.agr.gc.ca/atlas/rest/services/mapservices/aafc_watershed_2013/MapServer"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AAFC Watershed Project - 2013 (English)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Projet des bassins hydrographiques d?AAC (2013) (Anglais)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Web Service;ESRI REST;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Service Web;ESRI REST;eng"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://www5.agr.gc.ca/atlas/services/mapservices/aafc_watershed_2013/MapServer/WMSServer?request=GetCapabilities&service=WMS"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AAFC Watershed Project - 2013 (English)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Projet des bassins hydrographiques d?AAC (2013) (Anglais)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Web Service;WMS;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Service Web;WMS;eng"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://www5.agr.gc.ca/atlas/rest/services/servicesdecarte/aac_bassin_hydrographique_2013/MapServer"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AAFC Watershed Project - 2013 (French)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Projet des bassins hydrographiques d?AAC (2013) (Français)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Web Service;ESRI REST;fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Service Web;ESRI REST;fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://www5.agr.gc.ca/atlas/services/servicesdecarte/aac_bassin_hydrographique_2013/MapServer/WMSServer?request=GetCapabilities&service=WMS"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "AAFC Watershed Project - 2013 (French)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Projet des bassins hydrographiques d?AAC (2013) (Français)"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Web Service;WMS;fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Service Web;WMS;fra"
+          }}}
+        }
+      }}}}
+    ]
+  }},
+  "geonet:info":   {
+    "id": "4281",
+    "schema": "iso19139.nap",
+    "createDate": "2017-03-27T13:05:53",
+    "changeDate": "2018-07-09T15:17:38",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "c20d97e7-60d8-4df8-8611-4d499a796493",
+    "isHarvested": "n",
+    "popularity": "94",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "Matthew",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/63"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

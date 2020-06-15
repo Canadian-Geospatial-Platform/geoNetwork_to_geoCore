@@ -1,0 +1,1193 @@
+{
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gfc": "http://www.isotc211.org/2005/gfc",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gmi": "http://www.isotc211.org/2005/gmi",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "8661edcf-f525-4758-a051-cb3fc8c74423"
+  }},
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet": {"gmd:MD_CharacterSetCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+    "@codeListValue": "RI_458",
+    "#text": "utf8; utf8"
+  }},
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:individualName": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "Thomas Therriault"
+    }},
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Government of Canada; Fisheries and Oceans Canada"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+      }}}
+    },
+    "gmd:positionName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Research Scientist"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Chercheur"
+      }}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact":     {
+      "gmd:phone": {"gmd:CI_Telephone":       {
+        "gmd:voice":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "1(250)756-7394"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "1(250) 756-7394"
+          }}}
+        },
+        "gmd:facsimile":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        }
+      }},
+      "gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+          }}}
+        },
+        "gmd:city": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Nanaimo"
+        }},
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "British Columbia"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Colombie-Britannique"
+          }}}
+        },
+        "gmd:postalCode": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "V9T 6N7"
+        }},
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Canada (le)"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Thomas.Therriault@dfo-mpo.gc.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Thomas.Therriault@dfo-mpo.gc.ca"
+          }}}
+        }
+      }},
+      "gmd:onlineResource": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gmd:URL": null
+        },
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "http"
+        }}
+      }},
+      "gmd:hoursOfService":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+      }
+    }},
+    "gmd:role": {"gmd:CI_RoleCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+      "@codeListValue": "RI_409",
+      "#text": "custodian; conservateur"
+    }}
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "2020-02-26T18:15:03"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:dataSetURI":   {
+    "@gco:nilReason": "missing",
+    "gco:CharacterString": null
+  },
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:code": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "EPSG:4326"
+    }},
+    "gmd:codeSpace": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://www.epsg-registry.org"
+    }},
+    "gmd:version":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    }
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Aquatic Invasive Species European Green Crab (Carcinus maenas) Monitoring, British Columbia"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Surveillance du crabe vert (Carcinus maenas), espèce aquatique envahissante présente en Colombie-Britannique"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2019-12-23"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_366",
+            "#text": "creation; création"
+          }}
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2020-01-31"
+          }},
+          "gmd:dateType": {"gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }}
+        }}
+      ],
+      "gmd:citedResponsibleParty":       [
+        {"gmd:CI_ResponsibleParty":         {
+          "gmd:individualName": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Brett Howard"
+          }},
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Fisheries and Oceans Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+            }}}
+          },
+          "gmd:positionName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Aquatic Biologist"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Biologiste en Sciences Aquatiques"
+            }}}
+          },
+          "gmd:contactInfo": {"gmd:CI_Contact":           {
+            "gmd:phone": {"gmd:CI_Telephone":             {
+              "gmd:voice":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "1(250) 756-7259"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "1(250) 756-7259"
+                }}}
+              },
+              "gmd:facsimile":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@gco:nilReason": "missing",
+                "gco:CharacterString": null
+              }
+            }},
+            "gmd:address": {"gmd:CI_Address":             {
+              "gmd:deliveryPoint":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+                }}}
+              },
+              "gmd:city": {"gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Nanaimo"
+              }},
+              "gmd:administrativeArea":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "British Columbia"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Colombie-Britannique"
+                }}}
+              },
+              "gmd:postalCode": {"gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "V9T 6N7"
+              }},
+              "gmd:country":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Canada"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Canada (le)"
+                }}}
+              },
+              "gmd:electronicMailAddress":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Brett.Howard@dfo-mpo.gc.ca"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Brett.Howard@dfo-mpo.gc.ca"
+                }}}
+              }
+            }},
+            "gmd:onlineResource": {"gmd:CI_OnlineResource":             {
+              "gmd:linkage":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@gco:nilReason": "missing",
+                "gmd:URL": null
+              },
+              "gmd:protocol": {"gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "http"
+              }}
+            }},
+            "gmd:hoursOfService":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null,
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+            }
+          }},
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_414",
+            "#text": "pointOfContact; contact"
+          }}
+        }},
+        {"gmd:CI_ResponsibleParty":         {
+          "gmd:individualName": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Thomas Therriault"
+          }},
+          "gmd:organisationName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada; Fisheries and Oceans Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+            }}}
+          },
+          "gmd:positionName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Research Scientist"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Chercheur"
+            }}}
+          },
+          "gmd:contactInfo": {"gmd:CI_Contact":           {
+            "gmd:phone": {"gmd:CI_Telephone":             {
+              "gmd:voice":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "1(250)756-7394"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "1(250)756-7394"
+                }}}
+              },
+              "gmd:facsimile":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@gco:nilReason": "missing",
+                "gco:CharacterString": null
+              }
+            }},
+            "gmd:address": {"gmd:CI_Address":             {
+              "gmd:deliveryPoint":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+                }}}
+              },
+              "gmd:city": {"gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Nanaimo"
+              }},
+              "gmd:administrativeArea":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "British Columbia"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Colombie-Britannique"
+                }}}
+              },
+              "gmd:postalCode": {"gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "V9T 6N7"
+              }},
+              "gmd:country":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Canada"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Canada (le)"
+                }}}
+              },
+              "gmd:electronicMailAddress":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Thomas.Therriault@dfo-mpo.gc.ca"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Thomas.Therriault@dfo-mpo.gc.ca"
+                }}}
+              }
+            }},
+            "gmd:onlineResource": {"gmd:CI_OnlineResource":             {
+              "gmd:linkage": {"gmd:URL": null},
+              "gmd:protocol":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@gco:nilReason": "missing",
+                "gco:CharacterString": null
+              },
+              "gmd:name":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@gco:nilReason": "missing",
+                "gco:CharacterString": null
+              },
+              "gmd:description":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@gco:nilReason": "missing",
+                "gco:CharacterString": null
+              }
+            }},
+            "gmd:hoursOfService":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+            }
+          }},
+          "gmd:role": {"gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_410",
+            "#text": "owner; propriétaire"
+          }}
+        }}
+      ]
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Aquatic invasive species pose economic and ecological threats to Canada's coastal waters. In response, Fisheries and Oceans Canada (DFO) has established monitoring programs to detect and track the spread of aquatic invasive species, including European Green Crab, in Canadian waters. Fukui traps have been deployed annually at both new and long-term monitoring locations throughout coastal British Columbia."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Les espèces aquatiques envahissantes représentent une menace économique et écologique pour les eaux côtières canadiennes. Afin de réagir à la situation, Pêches et Océans Canada (MPO) a établi des programmes de surveillance afin de détecter la présence des espèces aquatiques envahissantes comme le crabe vert dans les eaux canadiennes et de faire le suivi de leur propagation. Depuis, des pièges Fukui ont été installés chaque année à de nouveaux lieux de surveillance ainsi qu?à des lieux de suivi à long terme situés un peu partout sur la côte de la Colombie-Britannique."
+      }}}
+    },
+    "gmd:status": {"gmd:MD_ProgressCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+      "@codeListValue": "RI_596",
+      "#text": "onGoing; enContinue"
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency": {"gmd:MD_MaintenanceFrequencyCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+      "@codeListValue": "RI_540",
+      "#text": "asNeeded; auBesoin"
+    }}}},
+    "gmd:graphicOverview": {"gmd:MD_BrowseGraphic":     {
+      "gmd:fileName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Green_crab_thumnail.png"
+      }},
+      "gmd:fileDescription": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "large_thumbnail"
+      }},
+      "gmd:fileType":       {
+        "@xmlns:napm": "http://www.geconnections.org/nap/napMetadataTools/napXsd/napm",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "napm:napMD_FileFormatCode_PropertyType",
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_115",
+        "@codeListValue": "RI_716",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "png; png"
+        }
+      }
+    }},
+    "gmd:descriptiveKeywords":     [
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Aquatic Invasive Species, Green Crab, Monitoring"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Espèces Aquatiques Envahissantes, Crabe vert,  surveillance"
+          }}}
+        },
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }}
+      }},
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Aquatic animals"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Animal aquatique"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Marine biology"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Biologie marine"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Invasive species"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Espèce envahissante"
+            }}}
+          }
+        ],
+        "gmd:type": {"gmd:MD_KeywordTypeCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+          "@codeListValue": "RI_528",
+          "#text": "theme; thème"
+        }},
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2004"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeListValue": "RI_366",
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "#text": "creation;création"
+              }}
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2016-07-04"
+              }},
+              "gmd:dateType": {"gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }}
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada; Library and Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+              }}}
+            },
+            "gmd:role": {"gmd:CI_RoleCode":             {
+              "@codeListValue": "RI_409",
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+              "#text": "custodian; conservateur"
+            }}
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:otherConstraints":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+      }
+    }},
+    "gmd:spatialRepresentationType": {"gmd:MD_SpatialRepresentationTypeCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+      "@codeListValue": "RI_637",
+      "#text": "textTable; texteTable"
+    }},
+    "gmd:language":     [
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "English"
+      }},
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "French"
+      }}
+    ],
+    "gmd:characterSet": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }},
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "biota"},
+    "gmd:environmentDescription":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    },
+    "gmd:extent":     [
+      {"gmd:EX_Extent": {"gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "timeperiod1",
+        "gml:beginPosition": "2006",
+        "gml:endPosition": "2018"
+      }}}}}},
+      {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-135.6373"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-120.922877"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "45.695644"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "56.534957"
+        }}
+      }}}}
+    ],
+    "gmd:supplementalInformation":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "@gco:nilReason": "missing",
+      "gco:CharacterString": null
+    }
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat":     [
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "CSV"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTML"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ESRI REST"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }}
+      }}
+    ],
+    "gmd:distributor": {"gmd:MD_Distributor": {"gmd:distributorContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:individualName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Brett Howard"
+      }},
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Fisheries and Oceans Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Pêches et Océans Canada"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Aquatic Biologist"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Biologiste en Sciences Aquatiques"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "1(250)756-7394"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "1(250) 756-7259"
+            }}}
+          },
+          "gmd:facsimile":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Pacific Biological Station, 3190 Hammond Bay Road"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "La station biologique du Pacifique, 3190, chemin Hammond Bay"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Nanaimo"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Colombie-Britannique"
+            }}}
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "V9T 6N7"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada (le)"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Brett.Howard@dfo-mpo.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Brett.Howard@dfo-mpo.gc.ca"
+            }}}
+          }
+        }},
+        "gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gmd:URL": null
+          },
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "http"
+          }}
+        }},
+        "gmd:hoursOfService":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null,
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+        }
+      }},
+      "gmd:role": {"gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_412",
+        "#text": "distributor; distributeur"
+      }}
+    }}}},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/European_Green_Crab_British_Columbia/Data_Dictionary_EN_FR.html"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTP"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Data Dictionary"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Dictionnaire de données"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;HTML;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;HTML;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/European_Green_Crab_British_Columbia/Reference Information_EN_FR.html"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTP"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Reference"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Référence"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;HTML;eng,fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;HTML;eng,fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/European_Green_Crab_British_Columbia/PFMA_Subareas_Green_Crab_Presence_and_Absence_EN.csv"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "European Green Crab British Columbia"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Crabe vert européen Colombie-Britannique"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;CSV;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;CSV;eng"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "https://pacgis01.dfo-mpo.gc.ca/FGPPublic/European_Green_Crab_British_Columbia/PFMA_Subareas_Green_Crab_Presence_and_Absence_FR.csv"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTPS"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "European Green Crab British Columbia"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Crabe vert européen Colombie-Britannique"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;CSV;fra"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;CSV;fra"
+          }}}
+        }
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:eng-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/European_Green_Crab_British_Columbia/MapServer/0"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Map Service"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "European Green Crab British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Crabe vert européen Colombie-Britannique"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;ESRI REST;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;ESRI REST;eng"
+            }}}
+          }
+        }
+      }}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:fra-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://gisp.dfo-mpo.gc.ca/arcgis/rest/services/FGP/European_Green_Crab_British_Columbia/MapServer/1"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Map Service"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "European Green Crab British Columbia"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Crabe vert européen Colombie-Britannique"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;ESRI REST;fra"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;ESRI REST;fra"
+            }}}
+          }
+        }
+      }}}
+    ]
+  }},
+  "geonet:info":   {
+    "id": "8153",
+    "schema": "iso19139.nap",
+    "createDate": "2019-12-02T18:29:18",
+    "changeDate": "2020-02-26T18:15:03",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "8661edcf-f525-4758-a051-cb3fc8c74423",
+    "isHarvested": "n",
+    "popularity": "58",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "Jason",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/114"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

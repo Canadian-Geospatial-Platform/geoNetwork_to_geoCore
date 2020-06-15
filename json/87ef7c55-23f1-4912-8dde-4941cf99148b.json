@@ -1,0 +1,1177 @@
+{
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd",
+  "gmd:fileIdentifier":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "87ef7c55-23f1-4912-8dde-4941cf99148b"
+    }
+  },
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }
+  },
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Government of Canada; Natural Resources Canada; Lands and Minerals Sector; Surveyor General Branch; Cadastral Information Service"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des terres et des minéraux; Direction de l'arpenteur général; Service de l'information cadastrale"
+      }}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact":     {
+      "gmd:phone": {"gmd:CI_Telephone": {"gmd:voice":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "voice; 1 (613) 7164764"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "voix; 1 (613) 7164764"
+        }}}
+      }}},
+      "gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "physical; 588; Booth Street; 309;"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "physique; 588; rue Booth; 309;"
+          }}}
+        },
+        "gmd:city":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ottawa"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ottawa"
+          }}}
+        },
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "#text": "Ontario"
+          },
+          "gmd:PT_FreeText":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Ontario"
+            }}
+          }
+        },
+        "gmd:postalCode": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "K1A 0Y7"
+        }},
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Canada"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "nrcan.clss-satc.rncan@canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "nrcan.clss-satc.rncan@canada.ca"
+          }}}
+        }
+      }}
+    }},
+    "gmd:role":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_409",
+        "#text": "custodian; conservateur"
+      }
+    }
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "#text": "2017-10-03T13:49:50"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:dataSetURI":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/dd8576c7-9b13-44bc-a99e-34d60d98a081"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "http://geogratis.gc.ca/api/fr/nrcan-rncan/ess-sst/dd8576c7-9b13-44bc-a99e-34d60d98a081"
+    }}}
+  },
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@id": "fra",
+    "gmd:languageCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:LanguageCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+        "@codeListValue": "fra",
+        "#text": "French; Français"
+      }
+    },
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:authority": {"gmd:CI_Citation":     {
+      "gmd:title": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "EPSG Geodetic Parameter Dataset"
+      }},
+      "gmd:date": {"gmd:CI_Date":       {
+        "gmd:date": {"gco:Date":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "2012-11-26"
+        }},
+        "gmd:dateType":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "RI_367",
+            "#text": "publication; publication"
+          }
+        }
+      }},
+      "gmd:edition": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "8.3.4"
+      }},
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "OGP Geomatics Committee"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "OGP Geomatics Committee"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:onlineResource": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://www.epsg.org/"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "http"
+          }}
+        }}}},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_408",
+            "#text": "resourceProvider; fournisseurRessource"
+          }
+        }
+      }}
+    }},
+    "gmd:code":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "EPSG::4269 (NAD83 Geographic 2D - GRS1980)"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "EPSG::4269 (NAD83 Géographique 2D - GRS1980)"
+      }}}
+    }
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Grid Areas of the Canada Oil and Gas Land Regulations"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Étendues quadrillées du Règlement sur les terres pétrolifères et gazifères du Canada"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2009-01-01"
+          }},
+          "gmd:dateType":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_366",
+              "#text": "creation; création"
+            }
+          }
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2014-07-23"
+          }},
+          "gmd:dateType":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_367",
+              "#text": "publication; publication"
+            }
+          }
+        }}
+      ],
+      "gmd:edition": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "1.0"
+      }},
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Lands and Minerals Sector; Surveyor General Branch; Cadastral Information Service"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des terres et des minéraux; Direction de l'arpenteur général; Service de l'information cadastrale"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone":           {
+            "gmd:voice":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "voice; 1 (780) 4952519"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "voix; 1 (780) 4952519"
+              }}}
+            },
+            "gmd:facsimile": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "1 (780) 4954052"
+            }}
+          }},
+          "gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "physical; 9700; Jasper Avenue; 6; 605"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "physique; 9700; avenue Jasper; 6; 605"
+              }}}
+            },
+            "gmd:city":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Edmonton"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Edmonton"
+              }}}
+            },
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "#text": "Alberta"
+              },
+              "gmd:PT_FreeText":               {
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Alberta"
+                }}
+              }
+            },
+            "gmd:postalCode": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "T5J 4C3"
+            }},
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "nrcan.surveyorgeneralbranch-directiondelarpenteurgeneral.rncan@canada.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "nrcan.surveyorgeneralbranch-directiondelarpenteurgeneral.rncan@canada.ca"
+              }}}
+            }
+          }}
+        }},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_410",
+            "#text": "owner; propriétaire"
+          }
+        }
+      }},
+      "gmd:presentationForm":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_PresentationFormCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+          "@codeListValue": "RI_391",
+          "#text": "mapDigital;carteNumérique"
+        }
+      },
+      "gmd:series": {"gmd:CI_Series": {"gmd:name":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Canada Lands Survey System - Oil and Gas Grid Areas"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Système d'arpentage des terres du Canada - Étendues quadrillées des concessions pétrolières et gazières"
+        }}}
+      }}}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "The land division system used for describing the extent of oil and gas interests located in the Northwest Territories, Nunavut or in Canada's offshore area is defined in the Canada Oil and Gas Land Regulations. This land division system consists of a grid system divided into Grid Areas, Sections, and Units ? all referenced to the North American Datum of 1927 (NAD27).  This data provides the geo-spatial representation of the NAD27 Oil and Gas Grid Areas referenced to NAD83 Datum. The creation of the Oil and Gas Grid Areas geo-spatial file covers areas that are situated in the Northwest Territories, Nunavut or Sable Island as well as submarine areas, not within a province, in the internal waters of Canada, the territorial sea of Canada or the continental shelf of Canada beyond 200 nm zone. The NAD83 grid area boundaries are defined by geodesics joining the four grid area corners. For sections and units, the eastern and western grid area geodesic boundaries are partitioned into 40 equal segments. The northern and southern grid area geodesic boundaries are partitioned into 40, 32 or 24 equal segments, depending on latitude. All internal corners at the section and unit level are defined by the intersections of north-south and east-west geodesics joining corresponding partition points along the northern and southern, and eastern and western, grid area geodesic boundaries."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Le Règlement sur les terres pétrolifères et gazières du Canada définit le système de division des terres servant à décrire l'étendue des intérêts pétroliers et gaziers qui se trouvent dans les Territoires du Nord-Ouest, le Nunavut ou dans la zone extracôtière du Canada. Ce système de division des terres est formé d'un système de quadrillage divisé par étendues quadrillées, sections et unités, le tout étant référencé au Système de référence nord-américain de 1927 (NAD27). Ces données fournissent une représentation géo-spatiale des étendues quadrillées NAD27 des concessions pétrolières et gazières en référence au système canadien de référence spatiale NAD83. Les régions couvertes par ces étendues quadrillées comprennent les Territoires du Nord-Ouest, le Nunavut, l'île de Sable ainsi que les aires sous-marines des eaux intérieures du Canada qui ne sont pas dans une province, de la mer territoriale du Canada et du plateau continental du Canada au-delà de la zone de 200 milles marins. Les limites des étendues quadrillées NAD83 sont définies par des géodésiques reliant les quatre coins de l?étendue quadrillée. Pour les sections et les unités, les limites géodésiques est et ouest de l?étendue quadrillée sont divisées en 40 segments égaux.  Les limites géodésiques nord et sud de l?étendue quadrillée sont divisées en 40, 32 ou 24 segments égaux, selon la latitude. Tous les coins intérieurs pour les sections et les unités sont définis par l?intersection des géodésiques nord-sud et est-ouest reliant les points de division établis le long des limites géodésiques nord et sud, et est et ouest des étendues quadrillées."
+      }}}
+    },
+    "gmd:purpose":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "This data is used as a spatial framework for the management of Oil and Gas interests. This dataset is not to be used for defining boundaries. Administrative decisions should be based on legal documents and legal survey plans."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Ces données servent de cadre de travail pour la gestion des droits pétroliers et gaziers. Ces données ne doivent pas servir à définir les frontières. Les décisions administratives devront être fondées sur les plans d'arpentage officiels et les documents légaux."
+      }}}
+    },
+    "gmd:status":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_ProgressCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+        "@codeListValue": "RI_593",
+        "#text": "completed; complété"
+      }
+    },
+    "gmd:pointOfContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Natural Resources Canada, Lands and Minerals Sector, Surveyor General Branch, Cadastral Information Service"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Ressources naturelles Canada, Secteur des terres et des minéraux, Direction de l'arpenteur général, Service de l'information cadastrale"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone": {"gmd:voice":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "voice; 1 (613) 7164764"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "voix; 1 (613) 7164764"
+          }}}
+        }}},
+        "gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "physical; 588; Booth Street; 309;"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "physique; 588; rue Booth; 309;"
+            }}}
+          },
+          "gmd:city":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Ottawa"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Ottawa"
+            }}}
+          },
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "#text": "Ontario"
+            },
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}
+            }
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "K1A 0Y7"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "nrcan.clss-satc.rncan@canada.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "nrcan.clss-satc.rncan@canada.ca"
+            }}}
+          }
+        }}
+      }},
+      "gmd:role":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }
+      }
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_MaintenanceFrequencyCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+        "@codeListValue": "RI_542",
+        "#text": "notPlanned; nonPlanifié"
+      }
+    }}},
+    "gmd:descriptiveKeywords":     [
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Canada"
+            }}}
+          },
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_525",
+            "#text": "place; endroit"
+          }}
+        }
+      },
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Canada Lands"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Terres du Canada"
+            }}}
+          },
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_528",
+            "#text": "theme; thème"
+          }},
+          "gmd:thesaurusName": {"gmd:CI_Citation":           {
+            "gmd:title":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "General Instructions for Surveys, Appendix E1 - GLOSSARY"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Instructions générales pour les arpentages, Appendice E1 - GLOSSAIRE"
+              }}}
+            },
+            "gmd:date":             [
+              {"gmd:CI_Date":               {
+                "gmd:date": {"gco:Date":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "2008-04-01"
+                }},
+                "gmd:dateType": {"gmd:CI_DateTypeCode":                 {
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "@codeListValue": "RI_367",
+                  "#text": "revision; révision"
+                }}
+              }},
+              {"gmd:CI_Date":               {
+                "gmd:date": {"gco:Date":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "2008-04-01"
+                }},
+                "gmd:dateType": {"gmd:CI_DateTypeCode":                 {
+                  "@codeList": "",
+                  "@codeListValue": "RI_366"
+                }}
+              }}
+            ],
+            "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":             {
+              "gmd:organisationName":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Natural Resources Canada, Surveyor General Branch"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Ressources naturelles Canada, Direction de l'arpenteur général"
+                }}}
+              },
+              "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:onlineResource": {"gmd:CI_OnlineResource":               {
+                "gmd:linkage": {"gmd:URL": "http://www.nrcan.gc.ca/clss"},
+                "gmd:protocol": {"gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "http"
+                }}
+              }}}},
+              "gmd:role": {"gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_409",
+                "#text": "custodian; conservateur"
+              }}
+            }}
+          }}
+        }
+      },
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Boundaries"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Frontière"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Provinces"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Province"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Territories"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Territoire"
+            }}}
+          },
+                    {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Petroleum"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Pétrole"
+            }}}
+          }
+        ],
+        "gmd:type":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_528",
+            "#text": "theme; thème"
+          }
+        },
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2013-05-10"
+              }},
+              "gmd:dateType":               {
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "gmd:CI_DateTypeCode":                 {
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "@codeListValue": "RI_367",
+                  "#text": "publication; publication"
+                }
+              }
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2013-05-10"
+              }},
+              "gmd:dateType":               {
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "gmd:CI_DateTypeCode":                 {
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "@codeListValue": "RI_366",
+                  "#text": "creation; création"
+                }
+              }
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada; Library and Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+              }}}
+            },
+            "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:onlineResource": {"gmd:CI_OnlineResource":             {
+              "gmd:linkage": {"gmd:URL": "http://www.thesaurus.gc.ca/"},
+              "gmd:protocol": {"gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "http"
+              }}
+            }}}},
+            "gmd:role":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_409",
+                "#text": "custodian; conservateur"
+              }
+            }
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints":     [
+      {"gmd:MD_Constraints": null},
+      {"gmd:MD_LegalConstraints":       {
+        "gmd:useLimitation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+          }}}
+        },
+        "gmd:accessConstraints": {"gmd:MD_RestrictionCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_606",
+          "#text": "license; licence"
+        }},
+        "gmd:useConstraints": {"gmd:MD_RestrictionCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_606",
+          "#text": "license; licence"
+        }},
+        "gmd:otherConstraints":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        }
+      }}
+    ],
+    "gmd:spatialRepresentationType":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_SpatialRepresentationTypeCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+        "@codeListValue": "RI_635",
+        "#text": "vector; vecteur"
+      }
+    },
+    "gmd:language": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "eng; CAN"
+    }},
+    "gmd:topicCategory":     [
+      {"gmd:MD_TopicCategoryCode": "boundaries"},
+      {"gmd:MD_TopicCategoryCode": "planningCadastre"}
+    ],
+    "gmd:extent": {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":     {
+      "gmd:extentTypeCode": {"gco:Boolean":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "1"
+      }},
+      "gmd:westBoundLongitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "-141"
+      }},
+      "gmd:eastBoundLongitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "-47.5"
+      }},
+      "gmd:southBoundLatitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "40"
+      }},
+      "gmd:northBoundLatitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "83.5"
+      }}
+    }}}}
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat": {"gmd:MD_Format":     {
+      "gmd:name":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "SHP"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "SHP"
+        }}}
+      },
+      "gmd:version":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "01"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "01"
+        }}}
+      },
+      "gmd:specification":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ESRI Shapefile Technical Description, an ESRI White Paper - July 1998 (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "ESRI Shapefile Technical Description, an ESRI White Paper - July 1998 (http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf)"
+        }}}
+      }
+    }},
+    "gmd:distributor": {"gmd:MD_Distributor":     {
+      "gmd:distributorContact": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Lands and Minerals Sector; Surveyor General Branch; Cadastral Information Service"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur des terres et des minéraux; Direction de l'arpenteur général; Service de l'information cadastrale"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone": {"gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "voice; 1 (613) 7164764"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "voix; 1 (613) 7164764"
+            }}}
+          }}},
+          "gmd:address": {"gmd:CI_Address":           {
+            "gmd:deliveryPoint":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "physical; 588; Booth Street; 309;"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "physique; 588; rue Booth; 309;"
+              }}}
+            },
+            "gmd:city":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ottawa"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ottawa"
+              }}}
+            },
+            "gmd:administrativeArea":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "#text": "Ontario"
+              },
+              "gmd:PT_FreeText":               {
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Ontario"
+                }}
+              }
+            },
+            "gmd:postalCode": {"gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "K1A 0Y7"
+            }},
+            "gmd:country":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+            "gmd:electronicMailAddress":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "nrcan.clss-satc.rncan@canada.ca"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "nrcan.clss-satc.rncan@canada.ca"
+              }}}
+            }
+          }}
+        }},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_412",
+            "#text": "distributor; distributeur"
+          }
+        }
+      }},
+      "gmd:distributionOrderProcess": {"gmd:MD_StandardOrderProcess": {"gmd:fees":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Free for download"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gratuit pour les télécharger"
+        }}}
+      }}}
+    }},
+    "gmd:transferOptions": {"gmd:MD_DigitalTransferOptions":     {
+      "gmd:transferSize": {"gco:Real":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "22"
+      }},
+      "gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "ftp://ftp.nrcan.gc.ca/ess/cccm_pub/og-pg/"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "FTP"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "SHP"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "SHP"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Dataset;SHP;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Données;SHP;eng"
+          }}}
+        }
+      }}
+    }}
+  }},
+  "geonet:info":   {
+    "id": "5210",
+    "schema": "iso19139.nap",
+    "createDate": "2017-08-24T18:41:24",
+    "changeDate": "2017-10-03T13:49:50",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "87ef7c55-23f1-4912-8dde-4941cf99148b",
+    "isHarvested": "n",
+    "popularity": "106",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "Trevor",
+    "valid_details":     [
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      },
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/41"
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

@@ -1,0 +1,2157 @@
+{
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd",
+  "gmd:fileIdentifier":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "7c954356-a099-2925-5b00-023eb775b90f"
+    }
+  },
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }
+  },
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact": {"gmd:CI_ResponsibleParty":   {
+    "gmd:organisationName":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector; Canada Centre for Mapping and Earth Observation; Canada Centre for Remote Sensing"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur de la politique stratégique et des résultats; Centre canadien de cartographie et d'observation de la terre; Centre canadien de télédétection"
+      }}}
+    },
+    "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":     {
+      "gmd:deliveryPoint":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Physical; 560; Rochester Street"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Physique; 560; Rue Rochester"
+        }}}
+      },
+      "gmd:city": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Ottawa"
+      }},
+      "gmd:administrativeArea":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "#text": "Ontario"
+        },
+        "gmd:PT_FreeText":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Ontario"
+          }}
+        }
+      },
+      "gmd:postalCode": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "K1A 0E4"
+      }},
+      "gmd:country":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "CANADA"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "CANADA"
+        }}}
+      },
+      "gmd:electronicMailAddress":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "LTSDR@NRCan.gc.ca"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "ADSLT@RNCan.gc.ca"
+        }}}
+      }
+    }}}},
+    "gmd:role":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:CI_RoleCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+        "@codeListValue": "RI_414",
+        "#text": "pointOfContact; contact"
+      }
+    }
+  }},
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "#text": "2018-09-13T20:31:42"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:referenceSystemInfo": {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":   {
+    "gmd:authority": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing"
+        }
+      },
+      "gmd:date": {"gmd:CI_Date":       {
+        "gmd:date": {"gco:Date":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "2000-01-01"
+        }},
+        "gmd:dateType":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_DateTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+            "@codeListValue": "http://www.fgdc.gov/nap/metadata/register/registerItems.html#RI_367"
+          }
+        }
+      }},
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty": {"gmd:role":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "http://www.fgdc.gov/nap/metadata/register/registerItems.html#RI_418"
+        }
+      }}}
+    }},
+    "gmd:code":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "EPSG:3978"
+      }
+    }
+  }}}},
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Multi-Spectral Clear-Sky Composites of MODIS/Terra Land Channels (B1 - B7) Over Canada at 250m Spatial Resolution, 2000-03-01 to 2013-01-10"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Images multispectrales composites du Canada sous ciel dégagé produites d'après les canaux (B1 à B7) d'observation des terres du MODIS/Terra à résolution spatiale de 250 m, 2000-03-01 to 2013-01-10"
+        }}}
+      },
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2013-06-01"
+          }},
+          "gmd:dateType":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_366",
+              "#text": "creation; création"
+            }
+          }
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2018-02-16"
+          }},
+          "gmd:dateType":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_367",
+              "#text": "publication; publication"
+            }
+          }
+        }}
+      ],
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector; Canada Centre for Mapping and Earth Observation; Canada Centre for Remote Sensing"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur de la politique stratégique et des résultats; Centre canadien de cartographie et d'observation de la terre; Centre canadien de télédétection"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Physical; 560; Rochester Street"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Physique; 560; Rue Rochester"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ottawa"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "#text": "Ontario"
+            },
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}
+            }
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "K1A 0E4"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "CANADA"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "CANADA"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "LTSDR@NRCan.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "ADSLT@RNCan.gc.ca"
+            }}}
+          }
+        }}}},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_414",
+            "#text": "pointOfContact; contact"
+          }
+        }
+      }},
+      "gmd:presentationForm":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_PresentationFormCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+          "@codeListValue": "RI_389",
+          "#text": "imageDigital; imageNumérique"
+        }
+      },
+      "gmd:series": {"gmd:CI_Series":       {
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Multi-Spectral Clear-Sky Composites of MODIS/Terra Land Channels (B1-B7) Over Canada at 250m Spatial Resolution and 10-Day Intervals Since March, 2000: Top of the Atmosphere (TOA) Data"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Images multispectrales composites du Canada sous ciel dégagé produites d'après les canaux d'observation des terres (B1-B7) du MODIS/Terra à résolution spatiale de 250 m sur 10 jours depuis mars 2000 : données au sommet de l'atmosphère"
+          }}}
+        },
+        "gmd:issueIdentification":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2014"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "2014"
+          }}}
+        }
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "The Moderate Resolution Imaging Spectroradiometer (MODIS ) is one of the most sophisticated sensors that is used in a wide range of applications related to land, ocean and atmosphere. It has 36 spectral channels with spatial resolution varying between 250 m and 1 km at nadir. MODIS channels 1 (B1, visible) and 2 (B2, near infrared) are available at 250 m spatial resolution, an additional five channels for terrestrial applications (bands B3 to B7) are available at 500 m spatial resolution, the other twenty-nine channels not included in this data set capture images with a spatial resolution of 1 km. The MODIS record begins in March 2000 and extends to present with daily measurements over the globe. This level 3 product for Canada was created from the following original Level 1 (1B) MODIS data (collection 5): a) MOD02QKM - Level 1B 250 m swath data, 5 min granules; b ) MOD02HKM - level 1B , 500 m swath data, 5 min granules; c) MOD03 - level 1 geolocation information, 1 km swath data, 5 min granules. All these data are available from the DAAC Earth Observing System Data Gateway (NASA http://ladsweb.nascom.nasa.gov/data/search.html). The terrestrial channels MODIS (B3 to B7) at 500 m spatial resolution were reduced to  250 m with an adaptive regression system and normalization described in Trishchenko et al. (2006, 2009), and the data were mapped using a Lambert Conformal Conic (LCC ) projection (Khlopenkov et al., 2008). These data were combined to form pan-Canadian images using a technique for detection of clear sky, clouds and cloud shadows with a maximum interval of 10 days (Luo et al., 2008). Atmospheric and sun-sensor geometry corrections have not been applied. For each date, data include forward and backward scattering observations as separate files. This allows data to be optimized for a given application. For general use, data from either forward or backward scattering or both should be used. Future release of the MODIS time series will correct the forward and backward scattering geometry to provide a single best observation for each pixel."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Le Spectroradiomètre imageur à résolution moyenne (MODIS) est un des capteurs les plus perfectionnés qui est utilisé dans un vaste éventail d?applications liées à la terre, à l?océan et à l?atmosphère. Il compte 36 canaux spectraux dont la résolution spatiale varie entre 250 m et 1 km au nadir. Les canaux du MODIS 1 (B1, visible) et 2 (B2, proche infrarouge) sont disponibles avec une résolution spatiale de 250 m, cinq autres canaux destinés aux applications terrestres (bandes B3 à B7) sont disponibles avec une résolution spatiale de 500 m et les vingt-neuf autres canaux qui ne sont pas inclus dans cet ensemble de données saisissent des images avec une résolution de 1 km. Les enregistrements du MODIS ont commencé en mars 2000 et ils se poursuivent par la saisie quotidienne de mesures sur l?ensemble du globe. Ce produit de niveau 3 montrant des scènes captées au-dessus du Canada a été créé à partir des données originales de niveau 1 (1B) suivantes du MODIS (collection 5) : a) MOD02QKM ? données de niveau 1B, fauchée de 250 m, granules de 5 min, b) MOD02HKM ? données de niveau 1B, fauchée de 500 m, granules de 5 min; c) MOD03 ? information de géolocalisation de niveau 1, fauchée de 1 km, granules de 5 min. Toutes ces données sont disponibles dans le portail DAAC Earth Observing System Data Gateway de la NASA (http://ladsweb.nascom.nasa.gov/data/search.html). On a réduit l?échelle des canaux terrestres de 500 m du MODIS (B3 à B7) à une résolution spatiale de 250 m grâce à un système adaptatif de régression et de normalisation, décrit dans Trishchenko et al. (2006, 2009), puis les données ont été projetées de nouveau dans une projection conique conforme de Lambert (CCL) (Khlopenkov et al., 2008). Ces données ont été regroupées pour former des images pancanadiennes au moyen d?une technique de détection des ciels dégagés, des nuages et de l?ombre des nuages avec un intervalle maximum de 10 jours (Luo et al., 2008). Aucune correction atmosphérique ou correction de la géométrie Soleil-capteur n?a été appliquée.Pour chaque date, les données comprennent les observations en prodiffusion et en rétrodiffusion sous forme de fichiers distincts. Cela permet d?optimiser les données pour une application particulière. Dans les cas d?utilisation générale, on devrait utiliser les données en prodiffusion, celles en rétrodiffusion ou les deux. Une version ultérieure de la série temporelle du MODIS corrigera la géométrie de la prodiffusion et de la rétrodiffusion afin de fournir une observation idéale unique pour chaque pixel."
+      }}}
+    },
+    "gmd:purpose":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "These data provide measurements of top-of-atmosphere reflectance of the land surface that can be used to study processes and trends at local to national scales. The high temporal resolution of the dataset allows evaluation of seasonality and phenology on intra-annual and interannual time scales. The length of the record provides the means to monitor changes in land surface conditions over time. These data can be used for retrievals of  albedo, leaf area,  land cover, land cover change, snow and lake ice cover, and spring leaf-out among others. Derived parameters are often used in ecosystem process models to study air quality/pollution impact, ground water storage, climate change, crop yield, and biochemical cycling."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Ces données fournissent des mesures de la réflectance au sommet de l?atmosphère sur la surface terrestre qui peuvent servir à étudier des processus et des tendances à l?échelle locale ou nationale. La résolution temporelle élevée de l?ensemble de données permet d?évaluer la saisonnalité et la phénologie à des échelles temporelles intra-annuelles et interannuelles. La période couverte par les enregistrements permet de surveiller les changements d?état de la surface terrestre en fonction du temps. Ces données peuvent être utilisées pour récupérer l?albédo, la surface foliaire, la couverture terrestre, les changements à cette dernière, la neige et la glace qui couvre les lacs et la feuillaison du printemps, et plus encore. Les paramètres dérivés sont souvent utilisés dans des modèles de processus d?écosystèmes pour étudier la qualité de l?air/l?impact de la pollution, les réserves d?eau souterraine, les changements climatiques, le rendement des cultures et les cycles biochimiques."
+      }}}
+    },
+    "gmd:status":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_ProgressCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+        "@codeListValue": "RI_593",
+        "#text": "completed; complété"
+      }
+    },
+    "gmd:pointOfContact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":       {
+        "gmd:deliveryPoint":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Physical; 560; Rochester Street"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Physique; 560; Rue Rochester"
+          }}}
+        },
+        "gmd:city": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Ottawa"
+        }},
+        "gmd:administrativeArea":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "#text": "Ontario"
+          },
+          "gmd:PT_FreeText":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Ontario"
+            }}
+          }
+        },
+        "gmd:postalCode": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "K1A 0E4"
+        }},
+        "gmd:country":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "CANADA"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "CANADA"
+          }}}
+        },
+        "gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "LTSDR@NRCan.gc.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "ADSLT@RNCan.gc.ca"
+          }}}
+        }
+      }}}},
+      "gmd:role":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }
+      }
+    }},
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_MaintenanceFrequencyCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+        "@codeListValue": "RI_543",
+        "#text": "unknown; inconnu"
+      }
+    }}},
+    "gmd:graphicOverview": {"gmd:MD_BrowseGraphic":     {
+      "gmd:fileName": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "https://neodf.nrcan.gc.ca/catalog/series/canada/composite/modis/10day/rev00/templates/a3706fc9-c274-4e4f-bede-35fa2670f50d.jpg"
+      }},
+      "gmd:fileType": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "jpg"
+      }}
+    }},
+    "gmd:descriptiveKeywords":     [
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           [
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Earth Sciences"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Sciences de la Terre"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Hydrosphere"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "hydrosphère"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ground Water"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Eaux souterraines"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Surface water"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Eau de surface"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Hydropattern"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Hydropattern"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Rivers"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Cours d'eau"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Rivers"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Cours d'eau"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Land surface"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Surface émergée"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Land Use"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Utilisation des Terres"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Land Cover"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Couverture des Terres"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Landscapes"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Paysages"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Water surface"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Surface de l'eau"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ice"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Glace"
+              }}}
+            }
+          ],
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_528",
+            "#text": "theme; thème"
+          }}
+        }
+      },
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           [
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Canada"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Alberta"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Alberta"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "British Columbia"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Colombie-Britannique"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Manitoba"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Manitoba"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "New Brunswick"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Nouveau-Brunswick"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Newfoundland and Labrador"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Terre-Neuve-et-Labrador"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Northwest Territories"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Territoires du Nord-Ouest"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Nova Scotia"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Nouvelle-Écosse"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Nunavut"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Nunavut"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Ontario"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Prince Edward Island"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Île-du-Prince-Édouard"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Québec"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Québec"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Saskatchewan"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Saskatchewan"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Yukon"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Yukon"
+              }}}
+            }
+          ],
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_525",
+            "#text": "place; endroit"
+          }}
+        }
+      },
+      {"gmd:MD_Keywords":       {
+        "gmd:keyword":         [
+                    {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Earth sciences"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Sciences de la terre"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Surface water"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Eau de surface"
+            }}}
+          },
+                    {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Ice"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Glace"
+            }}}
+          }
+        ],
+        "gmd:type":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_528",
+            "#text": "theme; thème"
+          }
+        },
+        "gmd:thesaurusName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Government of Canada Core Subject Thesaurus"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+            }}}
+          },
+          "gmd:date":           [
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2011-05-16"
+              }},
+              "gmd:dateType":               {
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "gmd:CI_DateTypeCode":                 {
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "@codeListValue": "RI_367",
+                  "#text": "publication; publication"
+                }
+              }
+            }},
+            {"gmd:CI_Date":             {
+              "gmd:date": {"gco:Date":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "2004"
+              }},
+              "gmd:dateType":               {
+                "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+                "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+                "gmd:CI_DateTypeCode":                 {
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "@codeListValue": "RI_366",
+                  "#text": "creation; création"
+                }
+              }
+            }}
+          ],
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:organisationName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada; Library and Archives Canada"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+              }}}
+            },
+            "gmd:role":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#RI_409"
+              }
+            }
+          }}
+        }}
+      }}
+    ],
+    "gmd:resourceConstraints":     [
+      {"gmd:MD_LegalConstraints":       {
+        "gmd:useConstraints": {"gmd:MD_RestrictionCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_609",
+          "#text": "otherRestrictions; autresRestrictions"
+        }},
+        "gmd:otherConstraints":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "A license agreement accompanies all value-added satellite products distributed via the NEODF. In addition to the terms and conditions which apply (see: http://data.gc.ca/eng/open-government-licence-canada), none of these products may be redistributed. Please direct interested users to apply for NEODF accounts. To comply with Section 3.0, you must appropriately acknowledge the Canada Center for Mapping and Earth Observation, a part of Natural Resources Canada, as the source of these products when you use them in support of research, analysis, reporting, decisions, operations or any other undertaking. By adding these products to your cart, you agree to all the above requirements."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Un contrat de licence accompagne tous les produits satellitaires à valeur ajoutée distribués par l?intermédiaire du CNDOT. Outre les modalités suivantes (http://donnees.gc.ca/fra/licence-du-gouvernement-ouvert-canada), aucun de ces produits ne peut être redistribué. Veuillez demander aux utilisateurs intéressés de déposer une demande pour un compte du CNDOT. Afin de respecter la section 3.0, vous devez indiquer de manière appropriée que le Centre canadien de cartographie et d?observation de la Terre, au sein de Ressources naturelles Canada, est la source de ces produits lorsque vous utilisez ceux ci à l?appui de vos travaux de recherche et d?analyse, de vos rapports, de vos décisions, de vos activités ou de tout autre projet. En ajoutant ces produits à votre panier, vous acceptez toutes les exigences susmentionnées."
+          }}}
+        }
+      }},
+      {"gmd:MD_LegalConstraints":       {
+        "gmd:useLimitation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+          }}}
+        },
+        "gmd:accessConstraints": {"gmd:MD_RestrictionCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_606",
+          "#text": "license; licence"
+        }},
+        "gmd:useConstraints": {"gmd:MD_RestrictionCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+          "@codeListValue": "RI_606",
+          "#text": "license; licence"
+        }},
+        "gmd:otherConstraints":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        }
+      }}
+    ],
+    "gmd:aggregationInfo":     [
+      {"gmd:MD_AggregateInformation":       {
+        "gmd:aggregateDataSetName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Implementation and evaluation of concurrent gradient search method for reprojection of MODIS level 1B imagery. IEEE Transaction on Geoscience and Remote Sensing, 46:2016?2027."
+            }
+          },
+          "gmd:date": {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2008"
+            }},
+            "gmd:dateType":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }
+            }
+          }},
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:individualName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Khlopenkov, K.V., and Trishchenko, A.P."
+              }
+            },
+            "gmd:role":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_418",
+                "#text": "author; auteur"
+              }
+            }
+          }},
+          "gmd:series": {"gmd:CI_Series": {"gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing, Ottawa, ON, Canada."
+            }
+          }}}
+        }},
+        "gmd:associationType": {"gmd:DS_AssociationTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_92",
+          "@codeListValue": "RI_428",
+          "#text": "crossReference; référenceCroisée"
+        }},
+        "gmd:initiativeType": {"gmd:DS_InitiativeTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_93",
+          "@codeListValue": "RI_445",
+          "#text": "program; programme"
+        }}
+      }},
+      {"gmd:MD_AggregateInformation":       {
+        "gmd:aggregateDataSetName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Developing clear-sky, cloud and cloud shadow mask for producing clear-sky composites at 250-meter spatial resolution for the seven MODIS land bands over Canada and North America. Remote Sensing of Environment, 112:4167-4185."
+            }
+          },
+          "gmd:date": {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2008"
+            }},
+            "gmd:dateType":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }
+            }
+          }},
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:individualName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Luo, Y., Trishchenko, A.P., and Khlopenkov, K.V."
+              }
+            },
+            "gmd:role":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_418",
+                "#text": "author; auteur"
+              }
+            }
+          }},
+          "gmd:series": {"gmd:CI_Series": {"gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing, Ottawa, ON, Canada."
+            }
+          }}}
+        }},
+        "gmd:associationType": {"gmd:DS_AssociationTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_92",
+          "@codeListValue": "RI_428",
+          "#text": "crossReference; référenceCroisée"
+        }},
+        "gmd:initiativeType": {"gmd:DS_InitiativeTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_93",
+          "@codeListValue": "RI_445",
+          "#text": "program; programme"
+        }}
+      }},
+      {"gmd:MD_AggregateInformation":       {
+        "gmd:aggregateDataSetName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "A method for downscaling MODIS land channels to 250m spatial resolution using adaptive regression and normalization, Proceedings of SPIE ? The International Society for Optical Engineering v.6366 (2006) art. no. 636607. 8 pp."
+            }
+          },
+          "gmd:date": {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2006"
+            }},
+            "gmd:dateType":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }
+            }
+          }},
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:individualName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Trishchenko, A.P., Luo Y., and Khlopenkov, K.V."
+              }
+            },
+            "gmd:role":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_418",
+                "#text": "author; auteur"
+              }
+            }
+          }},
+          "gmd:series": {"gmd:CI_Series": {"gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing, Ottawa, ON, Canada."
+            }
+          }}}
+        }},
+        "gmd:associationType": {"gmd:DS_AssociationTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_92",
+          "@codeListValue": "RI_428",
+          "#text": "crossReference; référenceCroisée"
+        }},
+        "gmd:initiativeType": {"gmd:DS_InitiativeTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_93",
+          "@codeListValue": "RI_445",
+          "#text": "program; programme"
+        }}
+      }},
+      {"gmd:MD_AggregateInformation":       {
+        "gmd:aggregateDataSetName": {"gmd:CI_Citation":         {
+          "gmd:title":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Arctic circumpolar mosaic at 250m spatial resolution for IPY by fusion of MODIS/TERRA land bands B1?B7. International Journal of Remote Sensing. 30:1635-1641."
+            }
+          },
+          "gmd:date": {"gmd:CI_Date":           {
+            "gmd:date": {"gco:Date":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "2009"
+            }},
+            "gmd:dateType":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_DateTypeCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                "@codeListValue": "RI_367",
+                "#text": "publication; publication"
+              }
+            }
+          }},
+          "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":           {
+            "gmd:individualName":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Trishchenko, A.P., Luo, Y. Khlopenkov, K. Park, W., and Wang, S."
+              }
+            },
+            "gmd:role":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_418",
+                "#text": "author; auteur"
+              }
+            }
+          }},
+          "gmd:series": {"gmd:CI_Series": {"gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Natural Resources Canada, Earth Sciences Sector, Canada Centre for Mapping and Earth Observation, Canada Centre for Remote Sensing, Ottawa, ON, Canada."
+            }
+          }}}
+        }},
+        "gmd:associationType": {"gmd:DS_AssociationTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_92",
+          "@codeListValue": "RI_428",
+          "#text": "crossReference; référenceCroisée"
+        }},
+        "gmd:initiativeType": {"gmd:DS_InitiativeTypeCode":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_93",
+          "@codeListValue": "RI_445",
+          "#text": "program; programme"
+        }}
+      }}
+    ],
+    "gmd:spatialRepresentationType":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_SpatialRepresentationTypeCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+        "@codeListValue": "RI_636",
+        "#text": "grid; grille"
+      }
+    },
+    "gmd:language": {"gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "eng; CAN"
+    }},
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "imageryBaseMapsEarthCover"},
+    "gmd:extent": {"gmd:EX_Extent": {"gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":     {
+      "gmd:extentTypeCode": {"gco:Boolean":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "1"
+      }},
+      "gmd:westBoundLongitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "-141"
+      }},
+      "gmd:eastBoundLongitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "-43"
+      }},
+      "gmd:southBoundLatitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "41.5"
+      }},
+      "gmd:northBoundLatitude": {"gco:Decimal":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "84"
+      }}
+    }}}}
+  }},
+  "gmd:contentInfo": {"gmd:MD_ImageDescription":   {
+    "gmd:attributeDescription": {"gco:RecordType":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "Band-interleaved"
+    }},
+    "gmd:contentType": {"gmd:MD_CoverageContentTypeCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_97",
+      "@codeListValue": "http://www.fgdc.gov/nap/metadata/register/registerItems.html#RI_492"
+    }},
+    "gmd:dimension":     [
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B1_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B1 (620 - 670 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B1 (620 à 670 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B2_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B2 (841 - 876 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B2 (841 à 876 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B3_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B3 (459 - 479 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B3 (459 à 479 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B4_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B4 (545 - 565 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B4 (545 à 565 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B5_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B5 (1230 - 1250 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B5 (1230 à 1250 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B6_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B6 (1628 - 1652 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B6 (1628 à 1652 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_B7_RETOA_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "TOA reflectance factor for band B7 (2105 - 2155 nm), scaled range 0 to 32767, fill value = -1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Facteur de réflectance SA pour la bande B7 (2105 à 2155 nm), plage proportionnelle de 0 à 32767, valeur de remplissage = -1"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.0001"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_Sun_Zenith_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Sun zenith in degrees, scaled range 0 to 9000, fill value = 32767"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Angle zénithal du Soleil en degrés, plage proportionnelle de 0 à 9000, valeur de remplissage = 32767"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.01"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_Satellite_Zenith_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Satellite zenith in degrees, scaled range 0 to 9000, fill value = 32767"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Angle zénithal du satellite en degrés, plage proportionnelle de 0 à 9000, valeur de remplissage = 32767"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.01"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_Sun_Azimuth_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Sun azimuth in degrees, scaled range -18000 to 18000, fill value = 32767"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Angle zénithal du Soleil en degrés, plage proportionnelle de 0 à 9000, valeur de remplissage = 32767"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.01"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_Satellite_Azimuth_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "sBand-interleaved, signed integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bandes entrelacées, entier signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Satellite Azimuth in degrees, scaled range -18000 to 18000, fill value = 32767"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Angle zénithal du satellite en degrés, plage proportionnelle de -18000 à 18000, valeur de remplissage = 32767"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.01"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_Rel_Date_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, unsigned integer",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bande entrelacée, entier non signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Time of observation relative to composite start date in minutes, scaled range 0 to 44640, fill value = 65535"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Heure d?observation par rapport au début de l?image composite exprimé en minutes, plage proportionnelle de 0 à 44640, valeur de remplissage = 65535"
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "16"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }}
+      }},
+      {"gmd:MD_Band":       {
+        "gmd:sequenceIdentifier": {"gco:MemberName":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Terra_MODIS_State_Flag_250m"
+          },
+          "gco:attributeType": {"gco:TypeName": {"gco:aName":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString": "Band-interleaved, unsigned byte",
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Bande entrelacée, entier non signé"
+              }}
+            }
+          }}}
+        }},
+        "gmd:descriptor":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Decimal index of pixel state. The units decimal digit:  0 - land pixel; 1 - water/land mixture pixel; 2 - water pixel; 3 - snow/ice. The 10s decimal digit: 0 - clear sky; 1 - cloud shadow; 2 - cloud. The 100s decimal digit: 0 - backward scattering geometry; 1 - forward scattering geometry. 255 - fill value."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Indice décimal de l?état des pixels. Décimale des unités : 0 ? pixel terrestre; 1 ? pixel montrant un mélange d?eau/de terre; 2 ? pixel d?eau; 3 ? neige/glace. Décimale des dizaines : 0 ? ciel dégagé; 1 ? ombre d?un nuage; 2 ? nuage. Décimale des centaines : 0 ? géométrie de rétrodiffusion; 1 ? géométrie de prodiffusion. 255 ? valeur de remplissage."
+          }}}
+        },
+        "gmd:bitsPerValue": {"gco:Integer":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "8"
+        }},
+        "gmd:scaleFactor": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }}
+      }}
+    ]
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat":     [
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ESRI REST"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "10.3.1"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "WMS"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1.3.0"
+        }}
+      }}
+    ],
+    "gmd:distributor": {"gmd:MD_Distributor":     {
+      "gmd:distributorContact": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector; Canada Centre for Mapping and Earth Observation; Canada Centre for Remote Sensing"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur de la politique stratégique et des résultats; Centre canadien de cartographie et d'observation de la terre; Centre canadien de télédétection"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact": {"gmd:address": {"gmd:CI_Address":         {
+          "gmd:deliveryPoint":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Physical; 560; Rochester Street"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Physique; 560; Rue Rochester"
+            }}}
+          },
+          "gmd:city": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Ottawa"
+          }},
+          "gmd:administrativeArea":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "#text": "Ontario"
+            },
+            "gmd:PT_FreeText":             {
+              "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+              "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+              "gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Ontario"
+              }}
+            }
+          },
+          "gmd:postalCode": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "K1A 0E4"
+          }},
+          "gmd:country":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "CANADA"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "CANADA"
+            }}}
+          },
+          "gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "LTSDR@NRCan.gc.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "ADSLT@RNCan.gc.ca"
+            }}}
+          }
+        }}}},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_412",
+            "#text": "distributor; distributeur"
+          }
+        }
+      }},
+      "gmd:distributionOrderProcess": {"gmd:MD_StandardOrderProcess": {"gmd:fees":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Free for download"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gratuit pour les télécharger"
+        }}}
+      }}}
+    }},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions": {"gmd:transferSize": {"gco:Real":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "22159.7"
+      }}}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:eng-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://webservices.maps.canada.ca/arcgis/rest/services/NRCan/MODIS_Composite_RGB_2000_2017_en/ImageServer"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Image Service"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "NRCan/MODIS_Composite_RGB_2000_2017"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "NRCan/MODIS_Composite_RGB_2000_2017"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;ESRI REST;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;ESRI REST;eng"
+            }}}
+          }
+        }
+      }}},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine":       {
+        "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+        "@xlink:role": "urn:xml:lang:fra-CAN",
+        "gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "https://servicesweb.cartes.canada.ca/arcgis/rest/services/NRCan/MODIS_Composite_RGB_2000_2017_fr/ImageServer"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ESRI REST: Image Service"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "NRCan/MODIS_Composite_RGB_2000_2017"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "NRCan/MODIS_Composite_RGB_2000_2017"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Web Service;ESRI REST;fra"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Service Web;ESRI REST;fra"
+            }}}
+          }
+        }
+      }}}
+    ]
+  }},
+  "geonet:info":   {
+    "id": "5566",
+    "schema": "iso19139.nap",
+    "createDate": "2018-02-08T15:21:30",
+    "changeDate": "2018-09-13T20:31:42",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "7c954356-a099-2925-5b00-023eb775b90f",
+    "isHarvested": "n",
+    "popularity": "64",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "Darren",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/47"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}

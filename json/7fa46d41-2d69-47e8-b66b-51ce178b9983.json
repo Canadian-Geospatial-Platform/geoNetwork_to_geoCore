@@ -1,0 +1,1665 @@
+{
+  "@xmlns:essm": "http://www.cits.rncan.gc.ca/ess/essMetadataTools/essXsd/essm",
+  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+  "@xmlns:geonet": "http://www.fao.org/geonetwork",
+  "@xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+  "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+  "@xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+  "@xmlns:gss": "http://www.isotc211.org/2005/gss",
+  "@xmlns:gts": "http://www.isotc211.org/2005/gts",
+  "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+  "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+  "@xsi:schemaLocation": "http://www.isotc211.org/2005/gmd http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/gmd/gmd.xsd http://www.isotc211.org/2005/srv http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/srv/srv.xsd http://www.geconnections.org/nap/napMetadataTools/napXsd/napm http://nap.geogratis.gc.ca/metadata/tools/schemas/metadata/can-cgsb-171.100-2009-a/napm/napm.xsd",
+  "gmd:fileIdentifier":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "7fa46d41-2d69-47e8-b66b-51ce178b9983"
+    }
+  },
+  "gmd:language": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "eng; CAN"
+  }},
+  "gmd:characterSet":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }
+  },
+  "gmd:hierarchyLevel": {"gmd:MD_ScopeCode":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+    "@codeListValue": "RI_622",
+    "#text": "dataset; jeuDonnées"
+  }},
+  "gmd:contact":   [
+    {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; National Defence"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Défense nationale"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null,
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString": {"@locale": "#fra"}}}
+      },
+      "gmd:role":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_413",
+          "#text": "originator; auteur"
+        }
+      }
+    }},
+    {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Natural Resources Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Ressources naturelles Canada"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Customer Support Group"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Équipe de soutien aux usagers"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "voice; 1 (800) 6612638"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "voix; 1 (800) 6612638"
+            }}}
+          },
+          "gmd:facsimile":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "geoinfo@canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "geoinfo@canada.ca"
+          }}}
+        }}}
+      }},
+      "gmd:role":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }
+      }
+    }}
+  ],
+  "gmd:dateStamp": {"gco:DateTime":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "#text": "2019-09-18T14:02:38"
+  }},
+  "gmd:metadataStandardName":   {
+    "@xsi:type": "gmd:PT_FreeText_PropertyType",
+    "gco:CharacterString":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "North American Profile of ISO 19115:2003 - Geographic information - Metadata"
+    },
+    "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":     {
+      "@locale": "#fra",
+      "#text": "Profil nord-américain de la norme ISO 19115:2003 - Information géographique - Métadonnées"
+    }}}
+  },
+  "gmd:metadataStandardVersion": {"gco:CharacterString":   {
+    "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "#text": "CAN/CGSB-171.100-2009"
+  }},
+  "gmd:locale": {"gmd:PT_Locale":   {
+    "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+    "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+    "@id": "fra",
+    "gmd:languageCode": {"gmd:LanguageCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_116",
+      "@codeListValue": "fra",
+      "#text": "French; Français"
+    }},
+    "gmd:country": {"gmd:Country":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_117",
+      "@codeListValue": "CAN",
+      "#text": "Canada; Canada"
+    }},
+    "gmd:characterEncoding": {"gmd:MD_CharacterSetCode":     {
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+      "@codeListValue": "RI_458",
+      "#text": "utf8; utf8"
+    }}
+  }},
+  "gmd:spatialRepresentationInfo": {"gmd:MD_VectorSpatialRepresentation": {"gmd:geometricObjects":   [
+    {"gmd:MD_GeometricObjects": {"gmd:geometricObjectType": {"gmd:MD_GeometricObjectTypeCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99",
+      "@codeListValue": "RI_508",
+      "#text": "point; point"
+    }}}},
+    {"gmd:MD_GeometricObjects": {"gmd:geometricObjectType": {"gmd:MD_GeometricObjectTypeCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99",
+      "@codeListValue": "RI_507",
+      "#text": "curve; courbe"
+    }}}},
+    {"gmd:MD_GeometricObjects": {"gmd:geometricObjectType": {"gmd:MD_GeometricObjectTypeCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_99",
+      "@codeListValue": "RI_510",
+      "#text": "surface; surface"
+    }}}}
+  ]}},
+  "gmd:referenceSystemInfo":   [
+    {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":     {
+      "gmd:code": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "EPSG:4326"
+      }},
+      "gmd:codeSpace": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "http://www.epsg-registry.org"
+      }},
+      "gmd:version": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "7.6"
+      }}
+    }}}},
+    {"gmd:MD_ReferenceSystem": {"gmd:referenceSystemIdentifier": {"gmd:RS_Identifier":     {
+      "gmd:code": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "EPSG:5713"
+      }},
+      "gmd:codeSpace": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "http://www.epsg-registry.org"
+      }},
+      "gmd:version": {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "7.6"
+      }}
+    }}}}
+  ],
+  "gmd:identificationInfo": {"gmd:MD_DataIdentification":   {
+    "gmd:citation": {"gmd:CI_Citation":     {
+      "gmd:title":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Vector Digital Topographic Map - VMap1, 1945 -1996"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Carte topographique numérique vectorielle - VMap1, 1945 -1996"
+        }}}
+      },
+      "gmd:alternateTitle":       [
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "VMap1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "VMap1"
+          }}}
+        },
+                {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Vector Map Level 1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Vector Map Level 1"
+          }}}
+        }
+      ],
+      "gmd:date":       [
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "2003"
+          }},
+          "gmd:dateType":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_367",
+              "#text": "publication; publication"
+            }
+          }
+        }},
+        {"gmd:CI_Date":         {
+          "gmd:date": {"gco:Date":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "1995"
+          }},
+          "gmd:dateType":           {
+            "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+            "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+            "gmd:CI_DateTypeCode":             {
+              "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+              "@codeListValue": "RI_366",
+              "#text": "creation; création"
+            }
+          }
+        }}
+      ],
+      "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone":           {
+            "gmd:voice":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "voice; 1 (800) 6612638"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "voix; 1 (800) 6612638"
+              }}}
+            },
+            "gmd:facsimile":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+            }
+          }},
+          "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "geoinfo@canada.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "geoinfo@canada.ca"
+            }}}
+          }}}
+        }},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_417",
+            "#text": "publisher; éditeur"
+          }
+        }
+      }},
+      "gmd:presentationForm":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_PresentationFormCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_89",
+          "@codeListValue": "RI_391",
+          "#text": "mapDigital;carteNumérique"
+        }
+      },
+      "gmd:series": {"gmd:CI_Series":       {
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "VMap1"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "VMap1"
+          }}}
+        },
+        "gmd:issueIdentification": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1.0"
+        }}
+      }}
+    }},
+    "gmd:abstract":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "The VMap1 collection is a legacy product that is no longer supported. It may not meet current government standards.\nVMap1 is a vector digital topographic reference product developed by Natural Resources Canada (NRCan) and The Department of National Defence (DND). VMap1 complies with international military specifications vector map, level 1. There are 24 VMap1 libraries covering the Canadian territory. The National Topographic Data Base (NTDB) at scale of 1:250 000 is the main source used to populate the Canadian VMap1 Libraries. Administrative Boundaries from Statistics Canada are used to add international borders, provincial and Indian reserve limits. NRCan paper maps at scale of 1:250 000 and the information in the Canadian Geographical Names Data Base (CGNDB) are used to capture the names. The JOG (Joint Operations Graphic) paper maps were used by DND for the production of libraries 37, 38 and 66. Topographic features mainly from the NTDB have not been updated. VMap1 is published once and no product revision is planned."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "La collection VMap1 fait partie du patrimoine, elle n?est plus maintenue. Elle pourrait ne pas respecter les normes actuelles du gouvernement.\nVMap1 est un produit numérique vectoriel de référence topographique produit par Ressources naturelles Canada (RNCan) et la Défense nationale (MDN). VMap1 respecte les spécifications militaires internationales de la carte vectorielle, niveau 1. Il y a 24 librairies VMap1 couvrant le territoire canadien. La Base nationale de données topographiques (BNDT) à l?échelle de 1/250 000 est la principale source pour la production des librairies VMap1. Les limites administratives de Statistique Canada sont utilisées pour ajouter les frontières internationales, les limites provinciales ainsi que les réserves indiennes. Les cartes papier à l?échelle de 1/250 000 de RNCan et les informations de la Base de données toponymiques du Canada (BDTC) servent pour le captage de la toponymie. Les cartes papiers JOG (Joint Operations Graphic) ont été utilisées par le MDN pour la production des librairies 37, 38 et 66. Les entités topographiques provenant principalement de la BNDT n'ont pas été actualisées. VMap1 est publié une seule fois et aucune révision du produit n?est prévue."
+      }}}
+    },
+    "gmd:purpose":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "The VMap1 product is designed to support Geographic Information System (GIS) applications with geographic data at medium resolution.\nVMap1's many attributes allow for extensive spatial analysis."
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Le Produit VMap1 est conçu pour aider les applications de système d'information géographique (SIG) avec des données géographiques à moyenne résolution.\nGrâce à ses nombreux attributs, VMap1 permet des analyses spatiales approfondies."
+      }}}
+    },
+    "gmd:status":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_ProgressCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_106",
+        "@codeListValue": "RI_594",
+        "#text": "historicalArchive; archiveHistorique"
+      }
+    },
+    "gmd:resourceMaintenance": {"gmd:MD_MaintenanceInformation": {"gmd:maintenanceAndUpdateFrequency":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_MaintenanceFrequencyCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+        "@codeListValue": "RI_542",
+        "#text": "notPlanned; nonPlanifié"
+      }
+    }}},
+    "gmd:graphicOverview":     [
+      {"gmd:MD_BrowseGraphic": {"gmd:fileName":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "@gco:nilReason": "missing",
+        "gco:CharacterString": null
+      }}},
+            {
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_BrowseGraphic":         {
+          "gmd:fileName": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "VMAP_thumb.png"
+          }},
+          "gmd:fileDescription": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "large_thumbnail"
+          }},
+          "gmd:fileType":           {
+            "@xmlns:napm": "http://www.geconnections.org/nap/napMetadataTools/napXsd/napm",
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "napm:napMD_FileFormatCode_PropertyType",
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/registerItemClasses-eng.html#IC_115",
+            "@codeListValue": "RI_716",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "png; png"
+            }
+          }
+        }
+      }
+    ],
+    "gmd:descriptiveKeywords":     [
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           [
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "VMAP"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "VMAP"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "VMAP1"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "VMAP1"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Military mapping"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Cartographie militaire"
+              }}}
+            }
+          ],
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_529",
+            "#text": "product; produit"
+          }}
+        }
+      },
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Earth Science"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Sciences de la terre"
+            }}}
+          },
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_524",
+            "#text": "discipline; discipline"
+          }}
+        }
+      },
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           [
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Vegetation"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Végétation"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Administrative boundaries"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Limites administratives"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Water saturated soils"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Sols saturés"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Land use"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Utilisation du sol"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Topography"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Topographie"
+              }}}
+            }
+          ],
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_528",
+            "#text": "theme; thème"
+          }}
+        }
+      },
+            {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:MD_Keywords":         {
+          "gmd:keyword":           [
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Communications"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Communications"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Energy"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Énergie"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Geomatics"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Géomatique"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Hydrography"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Hydrographie"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Infrastructures"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Infrastructure"
+              }}}
+            },
+                        {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Geographical maps"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Carte géographique"
+              }}}
+            }
+          ],
+          "gmd:type": {"gmd:MD_KeywordTypeCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_101",
+            "@codeListValue": "RI_528",
+            "#text": "theme; thème"
+          }},
+          "gmd:thesaurusName": {"gmd:CI_Citation":           {
+            "gmd:title":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "Government of Canada Core Subject Thesaurus"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "Thésaurus des sujets de base du gouvernement du Canada"
+              }}}
+            },
+            "gmd:date":             [
+              {"gmd:CI_Date":               {
+                "gmd:date": {"gco:Date":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "2011-05-16"
+                }},
+                "gmd:dateType": {"gmd:CI_DateTypeCode":                 {
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "@codeListValue": "RI_367",
+                  "#text": "publication; publication"
+                }}
+              }},
+              {"gmd:CI_Date":               {
+                "gmd:date": {"gco:Date":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "2011-05-16"
+                }},
+                "gmd:dateType": {"gmd:CI_DateTypeCode":                 {
+                  "@codeListValue": "RI_366",
+                  "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_87",
+                  "#text": "creation;création"
+                }}
+              }}
+            ],
+            "gmd:citedResponsibleParty": {"gmd:CI_ResponsibleParty":             {
+              "gmd:organisationName":               {
+                "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                "@xsi:type": "gmd:PT_FreeText_PropertyType",
+                "gco:CharacterString":                 {
+                  "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                  "#text": "Government of Canada; Library and Archives Canada"
+                },
+                "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":                 {
+                  "@locale": "#fra",
+                  "#text": "Gouvernement du Canada; Bibliothèque et Archives Canada"
+                }}}
+              },
+              "gmd:role": {"gmd:CI_RoleCode":               {
+                "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+                "@codeListValue": "RI_409",
+                "#text": "custodian; conservateur"
+              }}
+            }}
+          }}
+        }
+      }
+    ],
+    "gmd:resourceConstraints": {"gmd:MD_LegalConstraints":     {
+      "gmd:useLimitation":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+        }}}
+      },
+      "gmd:accessConstraints": {"gmd:MD_RestrictionCode":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }},
+      "gmd:useConstraints": {"gmd:MD_RestrictionCode":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+        "@codeListValue": "RI_606",
+        "#text": "license; licence"
+      }}
+    }},
+    "gmd:spatialRepresentationType":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_SpatialRepresentationTypeCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_109",
+        "@codeListValue": "RI_635",
+        "#text": "vector; vecteur"
+      }
+    },
+    "gmd:spatialResolution": {"gmd:MD_Resolution": {"gmd:equivalentScale": {"gmd:MD_RepresentativeFraction": {"gmd:denominator": {"gco:Integer":     {
+      "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+      "#text": "250000"
+    }}}}}},
+    "gmd:language":     [
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "eng; CAN"
+      }},
+      {"gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "fra; CAN"
+      }}
+    ],
+    "gmd:characterSet":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_CharacterSetCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_95",
+        "@codeListValue": "RI_458",
+        "#text": "utf8; utf8"
+      }
+    },
+    "gmd:topicCategory": {"gmd:MD_TopicCategoryCode": "imageryBaseMapsEarthCover"},
+    "gmd:extent": {"gmd:EX_Extent":     {
+      "gmd:description":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Canada"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Canada"
+        }}}
+      },
+      "gmd:geographicElement": {"gmd:EX_GeographicBoundingBox":       {
+        "gmd:extentTypeCode": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1"
+        }},
+        "gmd:westBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-141"
+        }},
+        "gmd:eastBoundLongitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "-47"
+        }},
+        "gmd:southBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "42"
+        }},
+        "gmd:northBoundLatitude": {"gco:Decimal":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "84"
+        }}
+      }},
+      "gmd:temporalElement": {"gmd:EX_TemporalExtent": {"gmd:extent": {"gml:TimePeriod":       {
+        "@xmlns:gml": "http://www.opengis.net/gml/3.2",
+        "@gml:id": "timeperiod1",
+        "gml:beginPosition": "1945",
+        "gml:endPosition": "1996"
+      }}}}
+    }}
+  }},
+  "gmd:distributionInfo": {"gmd:MD_Distribution":   {
+    "gmd:distributionFormat":     [
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "SHP"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Unknown"
+        }},
+        "gmd:specification":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "@gco:nilReason": "missing",
+          "gco:CharacterString": null
+        },
+        "gmd:fileDecompressionTechnique": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ZIP"
+        }}
+      }},
+      {"gmd:MD_Format":       {
+        "gmd:name": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "VPF"
+        }},
+        "gmd:version": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "1.0"
+        }},
+        "gmd:specification": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Military Specifications, MIL-STD-2407, Vector Product Format (VPF)"
+        }},
+        "gmd:fileDecompressionTechnique": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "ZIP"
+        }}
+      }}
+    ],
+    "gmd:distributor": {"gmd:MD_Distributor":     {
+      "gmd:distributorContact": {"gmd:CI_ResponsibleParty":       {
+        "gmd:organisationName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Government of Canada; Natural Resources Canada"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Gouvernement du Canada; Ressources naturelles Canada"
+          }}}
+        },
+        "gmd:positionName":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Customer Support Group"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Équipe de soutien aux usagers"
+          }}}
+        },
+        "gmd:contactInfo": {"gmd:CI_Contact":         {
+          "gmd:phone": {"gmd:CI_Telephone":           {
+            "gmd:voice":             {
+              "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+              "@xsi:type": "gmd:PT_FreeText_PropertyType",
+              "gco:CharacterString":               {
+                "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+                "#text": "voice; 1 (800) 6612638"
+              },
+              "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":               {
+                "@locale": "#fra",
+                "#text": "voix; 1 (800) 6612638"
+              }}}
+            },
+            "gmd:facsimile":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "@gco:nilReason": "missing",
+              "gco:CharacterString": null
+            }
+          }},
+          "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "geoinfo@canada.ca"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "geoinfo@canada.ca"
+            }}}
+          }}},
+          "gmd:hoursOfService":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "@gco:nilReason": "missing",
+            "gco:CharacterString": null
+          }
+        }},
+        "gmd:role":         {
+          "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+          "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+          "gmd:CI_RoleCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+            "@codeListValue": "RI_412",
+            "#text": "distributor; distributeur"
+          }
+        }
+      }},
+      "gmd:distributionOrderProcess": {"gmd:MD_StandardOrderProcess": {"gmd:fees":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Free for download"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gratuit pour les télécharger"
+        }}}
+      }}}
+    }},
+    "gmd:transferOptions":     [
+      {"gmd:MD_DigitalTransferOptions":       {
+        "gmd:transferSize": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "173.96"
+        }},
+        "gmd:onLine": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/shp"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTP"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Prepackaged Shapefiles Vmap1 libraries (download directory)"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Librairies Vmap1 en format shape pré-emballées (répertoire de téléchargement )"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Dataset;SHP;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Données;SHP;eng"
+            }}}
+          },
+          "gmd:function": {"gmd:CI_OnLineFunctionCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+            "@codeListValue": "RI_376",
+            "#text": "information; information"
+          }}
+        }}
+      }},
+      {"gmd:MD_DigitalTransferOptions":       {
+        "gmd:transferSize": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "237.25"
+        }},
+        "gmd:onLine": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/vpf"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTP"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Prepackaged VPF Vmap1 libraries (download directory)"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Librairies Vmap1 en format VPF pré-emballées (répertoire de téléchargement )"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Dataset;VPF;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Données;VPF;eng"
+            }}}
+          },
+          "gmd:function": {"gmd:CI_OnLineFunctionCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+            "@codeListValue": "RI_376",
+            "#text": "information; information"
+          }}
+        }}
+      }},
+      {"gmd:MD_DigitalTransferOptions":       {
+        "gmd:transferSize": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.59"
+        }},
+        "gmd:onLine": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/Vmap1_Index.png"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTP"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Index of VMap1 coverages"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Index de la couverture VMap1"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Supporting Document;PNG;zxx"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Document de soutien;PNG;zxx"
+            }}}
+          },
+          "gmd:function": {"gmd:CI_OnLineFunctionCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+            "@codeListValue": "RI_376",
+            "#text": "information; information"
+          }}
+        }}
+      }},
+      {"gmd:MD_DigitalTransferOptions":       {
+        "gmd:transferSize": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "14.33"
+        }},
+        "gmd:onLine": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTP"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "VMap1 Military Specifications - MIL-PRF-89033"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "VMap1 Military Specifications - MIL-PRF-89033 (anglais seulement)"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Supporting Document;PDF;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Document de soutien;PDF;eng"
+            }}}
+          },
+          "gmd:function": {"gmd:CI_OnLineFunctionCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+            "@codeListValue": "RI_376",
+            "#text": "information; information"
+          }}
+        }}
+      }},
+      {"gmd:MD_DigitalTransferOptions":       {
+        "gmd:transferSize": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "0.805"
+        }},
+        "gmd:onLine": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/89033_VMAP_1_A1.pdf"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTP"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Amendment 1 to VMap1 Military Specifications - MIL-PRF-89033"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Amendment 1 to VMap1 Military Specifications - MIL-PRF-89033 (anglais seulement)"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Supporting Document;PDF;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Document de soutien;PDF;eng"
+            }}}
+          },
+          "gmd:function": {"gmd:CI_OnLineFunctionCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+            "@codeListValue": "RI_376",
+            "#text": "information; information"
+          }}
+        }}
+      }},
+      {"gmd:MD_DigitalTransferOptions":       {
+        "gmd:transferSize": {"gco:Real":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "11.11"
+        }},
+        "gmd:onLine": {"gmd:CI_OnlineResource":         {
+          "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/2407_VPF.pdf"},
+          "gmd:protocol": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "HTTP"
+          }},
+          "gmd:name":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Department of Defense Interface Standard for Vector Product Format"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Department of Defense Interface Standard for Vector Product Format (anglais seulement)"
+            }}}
+          },
+          "gmd:description":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "Supporting Document;PDF;eng"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "Document de soutien;PDF;eng"
+            }}}
+          },
+          "gmd:function": {"gmd:CI_OnLineFunctionCode":           {
+            "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_88",
+            "@codeListValue": "RI_376",
+            "#text": "information; information"
+          }}
+        }}
+      }},
+      {"gmd:MD_DigitalTransferOptions": {"gmd:onLine": {"gmd:CI_OnlineResource":       {
+        "gmd:linkage": {"gmd:URL": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/index/vmap1.kmz"},
+        "gmd:protocol": {"gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "HTTP"
+        }},
+        "gmd:name":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Index of VMap1 coverages"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Index de la couverture VMap1"
+          }}}
+        },
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Supporting Document;KMZ;eng"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Document de soutien;KMZ;eng"
+          }}}
+        }
+      }}}}
+    ]
+  }},
+  "gmd:dataQualityInfo": {"gmd:DQ_DataQuality":   {
+    "gmd:scope": {"gmd:DQ_Scope": {"gmd:level": {"gmd:MD_ScopeCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_108",
+      "@codeListValue": "RI_622",
+      "#text": "dataset; jeuDonnées"
+    }}}},
+    "gmd:report":     [
+      {"gmd:DQ_AbsoluteExternalPositionalAccuracy": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Geographic coordinates units : Decimal Degrees, Latitude and Longitude resolution : 0.000005"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Unités des coordonnées géographiques : Degrés décimaux, Résolution en latitude et longitude : 0.000005"
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_AbsoluteExternalPositionalAccuracy": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Altitude Distance Units: metres, Altitude Resolution: 1, Altitude Encoding Method: Attribute values"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Unités de distance de l'altitude : Mètres, Résolution en altitude : 1, Méthode de codage de l'altitude : Valeurs d'attribut"
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_ConceptualConsistency": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "The rules of VMap1 conceptual schema are defined in the feature table schema.\nFor each feature table, the attribute names, description and attribute values are represented.\nThis approach ensures the conceptual consistency between the conceptual schema and the VMap1 product."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Les règles du schéma conceptuel VMap1 sont définies dans le schéma des tables d'entités.\nPour chaque table d'entité, les noms, les descriptions et les valeurs d'attribut sont représentés.\nCeci permet d'assurer la cohérence conceptuelle entre le schéma conceptuel et le produit VMap1."
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_DomainConsistency": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "VMap1 implements the Feature Attribute Coding Catalog (FACC) of the Digital Geographic Information Exchange Standard (DIGEST).\nThe domain of values included in the FACC are validated in the VMap1 product. This approach ensures the domain consistency of the VMap1 product."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "VMap1 implémente le Feature Attribute Coding Catalog (FACC) du Digital Geographic Information Exchange Standard (DIGEST).\nLes domaines des valeurs incluses dans le FACC sont validés dans le produit VMap1. Ceci permet d'assurer la cohérence des domaines entre le FACC et le produit VMap1."
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_FormatConsistency": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "The use of well-established commercial software to generate distribution formats ensures format consistency for VMap1 product distribution."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "L'utilisation de logiciels commerciaux éprouvés pour la génération des formats de distribution permet d'assurer la cohérence de format pour la distribution du produit VMap1."
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_TopologicalConsistency": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "Topological relationships between entities are validated for each VMap1 library.\nThis approach ensures topological consistency for the VMap1 product.\nThe VALIDATOR ? software offered free by the National Imagery and Mapping Agency (NIMA) to producers has validated the structure (undershoots, overshoots, double scanning)."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "Les relations topologiques entre les entités ont été validées pour chaque librairie VMap1.\nCeci permet d'assurer la cohérence topologique du produit VMap1.\nLe logiciel VALIDATOR? offert gratuitement par la National Imagery and Mapping Agency (NIMA) aux producteurs a permis de valider la structure (manques, dépassements, double-numérisation)."
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_CompletenessCommission": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "The data quality assessment (including completeness and thematic accuracy) is directly performed during the data production process.\nTiles that represent well the content of each library are selected and inspected in order to check their contents against the data source used in production.\nIf the percentage of error detected is less than 5 %, then the library is accepted."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "L?évaluation de la qualité des données (incluant la complétude et l?exactitude thématique) est faite directement lors de la production des données.\nDes tuiles représentatives du contenu de chaque librairie sont sélectionnées et inspectés afin de vérifier leur contenu par rapport à la source de données ayant servi à la production.Si le pourcentage d?erreurs détecté est inférieur à 5%, alors la librairie est acceptée."
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}},
+      {"gmd:DQ_CompletenessOmission": {"gmd:result": {"gmd:DQ_ConformanceResult":       {
+        "gmd:specification":         {
+          "@xmlns:xlink": "http://www.w3.org/1999/xlink",
+          "@xlink:title": "Military Specifications, MIL-V-89033, Vector Map Level 1 (Vmap1), June 1995.",
+          "@xlink:href": "http://ftp.maps.canada.ca/pub/nrcan_rncan/vector/vmap1/doc/VMAP_89033.pdf"
+        },
+        "gmd:explanation":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "The methodology describe to evaluate the \"Commission\" is also applied to verify the omissions within the VMap1 product."
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "La méthodologie décrite pour évaluer les commissions est également utilisée pour vérifier les omissions dans le produit VMap1."
+          }}}
+        },
+        "gmd:pass": {"gco:Boolean":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "true"
+        }}
+      }}}}
+    ],
+    "gmd:lineage": {"gmd:LI_Lineage":     {
+      "gmd:statement":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "The lineage.doc table is a data quality file related to the DQT, which describes how the data were processed.\nIt provides a textual description of the procedures used to collect the data in each VMap library, including special processing techniques, processing tolerances, feature interpretation rules and basic production quality assurance procedures.\nThis information is common to all coverages in the library."
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "La table lineage.doc est un fichier de qualité des données lié à la DQT, qui décrit comment les données ont été traitées.\nIl fournit une description textuelle des procédures utilisées pour capter les données dans chaque librairie VMap, y compris les techniques spéciales de traitement, les tolérances de traitement, les règles d'interprétation des entités et les procédures de base d'assurance de la qualité de production.\nCette information est commune à tous les thèmes dans la librairie."
+        }}}
+      },
+      "gmd:processStep": {"gmd:LI_ProcessStep": {"gmd:description":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Creation of VMap1 product. The VMap1 product is created from the National Topographic Database (NTDB).\nThe NTDB is a corporate data warehouse containing mainly many types of Canadian vector topographical data.\nThe NTDB is managed by Natural Resources Canada. The NTDB is not maintened.\nMain transformation applied to the NTDB source data when creating VMap1 product: - Selection of a subset of entities.\nThe Feature Attribute Coding Catalog (FACC) identifies the complete list of entities in VMap1 product."
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Génération du produit VMap1. Le produit VMap1 est généré à partir de la Base nationale de données topographiques (BNDT).\nLa BNDT est un entrepôt corporatif regroupant principalement plusieurs types de données topographiques vectorielles canadiennes.\nLa BNDT est gérée par Ressources naturelles Canada. La BNDT n'est pas maintenue.\nPrincipale transformation appliquée à la source de données BNDT lors de la génération du produit VMap1 : - Sélection d'un sous-ensemble d'entités.\nLe Feature Attribute Coding Catalog (FACC) identifie la liste complète des entités et des attributs composant le produit VMap1."
+        }}}
+      }}},
+      "gmd:source": {"gmd:LI_Source":       {
+        "@id": "BNDT-2.3",
+        "gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "hardDisk; Source used to create the product (dataset)"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "disqueDur; Source utilisée pour générer le produit (jeu de données)"
+          }}}
+        },
+        "gmd:sourceExtent": {"gmd:EX_Extent": {"gmd:description":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "ground condition"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "condition au sol"
+          }}}
+        }}}
+      }}
+    }}
+  }},
+  "gmd:metadataConstraints": {"gmd:MD_LegalConstraints":   {
+    "gmd:useLimitation":     {
+      "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "@xsi:type": "gmd:PT_FreeText_PropertyType",
+      "gco:CharacterString":       {
+        "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+        "#text": "Open Government Licence - Canada (http://open.canada.ca/en/open-government-licence-canada)"
+      },
+      "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":       {
+        "@locale": "#fra",
+        "#text": "Licence du gouvernement ouvert - Canada (http://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada)"
+      }}}
+    },
+    "gmd:accessConstraints": {"gmd:MD_RestrictionCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+      "@codeListValue": "RI_606",
+      "#text": "license; licence"
+    }},
+    "gmd:useConstraints": {"gmd:MD_RestrictionCode":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_107",
+      "@codeListValue": "RI_606",
+      "#text": "license; licence"
+    }}
+  }},
+  "gmd:metadataMaintenance": {"gmd:MD_MaintenanceInformation":   {
+    "gmd:maintenanceAndUpdateFrequency":     {
+      "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+      "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+      "gmd:MD_MaintenanceFrequencyCode":       {
+        "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_102",
+        "@codeListValue": "RI_542",
+        "#text": "notPlanned; nonPlanifié"
+      }
+    },
+    "gmd:contact": {"gmd:CI_ResponsibleParty":     {
+      "gmd:organisationName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Government of Canada; Natural Resources Canada; Strategic Policy and Results Sector"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Gouvernement du Canada; Ressources naturelles Canada; Secteur de la politique et des résultats"
+        }}}
+      },
+      "gmd:positionName":       {
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:type": "gmd:PT_FreeText_PropertyType",
+        "gco:CharacterString":         {
+          "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+          "#text": "Customer Support Group"
+        },
+        "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":         {
+          "@locale": "#fra",
+          "#text": "Équipe de soutien aux usagers"
+        }}}
+      },
+      "gmd:contactInfo": {"gmd:CI_Contact":       {
+        "gmd:phone": {"gmd:CI_Telephone":         {
+          "gmd:voice":           {
+            "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+            "@xsi:type": "gmd:PT_FreeText_PropertyType",
+            "gco:CharacterString":             {
+              "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+              "#text": "voice; 1 (800) 6612638"
+            },
+            "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":             {
+              "@locale": "#fra",
+              "#text": "voix; 1 (800) 6612638"
+            }}}
+          },
+          "gmd:facsimile": {"gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "1 (819) 5645698"
+          }}
+        }},
+        "gmd:address": {"gmd:CI_Address": {"gmd:electronicMailAddress":         {
+          "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+          "@xsi:type": "gmd:PT_FreeText_PropertyType",
+          "gco:CharacterString":           {
+            "@xmlns:gco": "http://www.isotc211.org/2005/gco",
+            "#text": "geoinfo@canada.ca"
+          },
+          "gmd:PT_FreeText": {"gmd:textGroup": {"gmd:LocalisedCharacterString":           {
+            "@locale": "#fra",
+            "#text": "geoinfo@canada.ca"
+          }}}
+        }}}
+      }},
+      "gmd:role":       {
+        "@xmlns:gmx": "http://www.isotc211.org/2005/gmx",
+        "@xmlns:srv": "http://www.isotc211.org/2005/srv",
+        "gmd:CI_RoleCode":         {
+          "@codeList": "http://nap.geogratis.gc.ca/metadata/register/napMetadataRegister.xml#IC_90",
+          "@codeListValue": "RI_414",
+          "#text": "pointOfContact; contact"
+        }
+      }
+    }}
+  }},
+  "geonet:info":   {
+    "id": "4173",
+    "schema": "iso19139.nap",
+    "createDate": "2017-03-21T14:38:58",
+    "changeDate": "2019-09-18T14:02:38",
+    "isTemplate": "n",
+    "title": [],
+    "source": "Prod",
+    "uuid": "7fa46d41-2d69-47e8-b66b-51ce178b9983",
+    "isHarvested": "n",
+    "popularity": "116",
+    "rating": "0",
+    "displayOrder": null,
+    "isPublishedToAll": "true",
+    "view": "true",
+    "notify": "false",
+    "download": "true",
+    "dynamic": "true",
+    "featured": "false",
+    "ownername": "SupportGeobase",
+    "valid_details":     [
+            {
+        "type": "schematron-rules-ec",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": "0/103"
+        }
+      },
+            {
+        "type": "xsd",
+        "status":         {
+          "#text": "\n        1\n        ",
+          "ratio": []
+        }
+      }
+    ],
+    "valid": "1",
+    "baseUrl": "https://test.gcgeo.gc.ca:443null",
+    "locService": "/srv/en"
+  }
+}
